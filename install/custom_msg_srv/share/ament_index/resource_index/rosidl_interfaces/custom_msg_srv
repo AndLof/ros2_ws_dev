@@ -1,0 +1,8 @@
+msg/Rotate.idl
+msg/Rotate.msg
+msg/Trajectory.idl
+msg/Trajectory.msg
+srv/GetBatteryState.idl
+srv/GetBatteryState.srv
+srv/GetBatteryState_Request.msg
+srv/GetBatteryState_Response.msg

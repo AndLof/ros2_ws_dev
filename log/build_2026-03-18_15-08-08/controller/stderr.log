@@ -1,0 +1,7 @@
+[01m[K/ros2_ws_dev/src/controller/controller/src/pure_controller.cpp:[m[K In member function ‘[01m[Kvirtual geometry_msgs::msg::TwistStamped nav2_pure_controller::PureController::computeVelocityCommands(const PoseStamped&, const Twist&, nav2_core::GoalChecker*)[m[K’:
+[01m[K/ros2_ws_dev/src/controller/controller/src/pure_controller.cpp:439:32:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Krclcpp_lifecycle::LifecycleNode::WeakPtr[m[K’ {aka ‘[01m[Kstd::weak_ptr<rclcpp_lifecycle::LifecycleNode>[m[K’}
+  439 |   goal_pub.header.stamp = node_[01;31m[K->[m[Know();  // oppure rclcpp::Clock().now() se non hai node_->now()
+      |                                [01;31m[K^~[m[K
+gmake[2]: *** [CMakeFiles/pure_controller.dir/build.make:76: CMakeFiles/pure_controller.dir/src/pure_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pure_controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,540 @@
+[0.000000] (-) TimerEvent: {}
+[0.000167] (custom_msg_srv) JobQueued: {'identifier': 'custom_msg_srv', 'dependencies': OrderedDict()}
+[0.000193] (controller) JobQueued: {'identifier': 'controller', 'dependencies': OrderedDict([('custom_msg_srv', '/ros2_ws_dev/install/custom_msg_srv')])}
+[0.000230] (custom_msg_srv) JobStarted: {'identifier': 'custom_msg_srv'}
+[0.022950] (custom_msg_srv) JobProgress: {'identifier': 'custom_msg_srv', 'progress': 'cmake'}
+[0.024778] (custom_msg_srv) Command: {'cmd': ['/usr/bin/cmake', '/ros2_ws_dev/src/custom_msg_srv', '-DCMAKE_INSTALL_PREFIX=/ros2_ws_dev/install/custom_msg_srv'], 'cwd': '/ros2_ws_dev/build/custom_msg_srv', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', '08640b45cf10'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ros_ws/install/synchros2_tutorials_interfaces_example/lib:/ros_ws/install/spot_driver/lib:/ros_ws/install/spot_ros2_control/lib:/ros_ws/install/spot_rviz_plugins/lib:/ros_ws/install/spot_hardware_interface/lib:/ros_ws/install/spot_controllers/lib:/ros_ws/install/spot_msgs/lib:/ros_ws/install/rtabmap_slam/lib:/ros_ws/install/rtabmap_odom/lib:/ros_ws/install/rtabmap_util/lib:/ros_ws/install/rtabmap_sync/lib:/ros_ws/install/rtabmap_rviz_plugins/lib:/ros_ws/install/rtabmap_conversions/lib:/ros_ws/install/rtabmap_msgs/lib:/ros_ws/install/rtabmap_costmap_plugins/lib:/ros_ws/install/rtabmap/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/spot-cpp-sdk/lib:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/ros2_ws_dev/src'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('COLCON_PREFIX_PATH', '/ros2_ws_dev/install:/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/ros_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/ros_ws/install/rtabmap/lib/pkgconfig'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/ros_ws/install/rtabmap/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/ros_ws/install/synchros2_tutorials_example:/ros_ws/install/synchros2_tutorials_interfaces_example:/ros_ws/install/spot_driver:/ros_ws/install/spot_ros2_control:/ros_ws/install/spot_examples:/ros_ws/install/spot_common:/ros_ws/install/synchros2:/ros_ws/install/spot_rviz_plugins:/ros_ws/install/spot_hardware_interface:/ros_ws/install/spot_controllers:/ros_ws/install/spot_msgs:/ros_ws/install/spot_description:/ros_ws/install/rtabmap_ros:/ros_ws/install/rtabmap_launch:/ros_ws/install/rtabmap_examples:/ros_ws/install/rtabmap_demos:/ros_ws/install/rtabmap_viz:/ros_ws/install/rtabmap_slam:/ros_ws/install/rtabmap_odom:/ros_ws/install/rtabmap_util:/ros_ws/install/rtabmap_sync:/ros_ws/install/rtabmap_rviz_plugins:/ros_ws/install/rtabmap_python:/ros_ws/install/rtabmap_conversions:/ros_ws/install/rtabmap_msgs:/ros_ws/install/rtabmap_lidar_custom:/ros_ws/install/rtabmap_costmap_plugins:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/ros2_ws_dev/build/custom_msg_srv'), ('PYTHONPATH', '/ros_ws/build/synchros2_tutorials_example:/ros_ws/install/synchros2_tutorials_example/lib/python3.10/site-packages:/ros_ws/install/synchros2_tutorials_interfaces_example/local/lib/python3.10/dist-packages:/ros_ws/install/spot_driver/local/lib/python3.10/dist-packages:/ros_ws/build/spot_examples:/ros_ws/install/spot_examples/lib/python3.10/site-packages:/ros_ws/build/spot_common:/ros_ws/install/spot_common/lib/python3.10/site-packages:/ros_ws/build/synchros2:/ros_ws/install/synchros2/lib/python3.10/site-packages:/ros_ws/build/spot_wrapper:/ros_ws/install/spot_wrapper/lib/python3.10/site-packages:/ros_ws/install/spot_msgs/local/lib/python3.10/dist-packages:/ros_ws/build/rtabmap_python:/ros_ws/install/rtabmap_python/lib/python3.10/site-packages:/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:/ros_ws/build/rtabmap_lidar_custom:/ros_ws/install/rtabmap_lidar_custom/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ros_ws/install/synchros2_tutorials_interfaces_example:/ros_ws/install/spot_driver:/ros_ws/install/spot_ros2_control:/ros_ws/install/spot_rviz_plugins:/ros_ws/install/spot_hardware_interface:/ros_ws/install/spot_controllers:/ros_ws/install/spot_msgs:/ros_ws/install/spot_description:/ros_ws/install/rtabmap_ros:/ros_ws/install/rtabmap_launch:/ros_ws/install/rtabmap_examples:/ros_ws/install/rtabmap_demos:/ros_ws/install/rtabmap_viz:/ros_ws/install/rtabmap_slam:/ros_ws/install/rtabmap_odom:/ros_ws/install/rtabmap_util:/ros_ws/install/rtabmap_sync:/ros_ws/install/rtabmap_rviz_plugins:/ros_ws/install/rtabmap_conversions:/ros_ws/install/rtabmap_msgs:/ros_ws/install/rtabmap_costmap_plugins:/ros_ws/install/rtabmap:/ros_ws/install/synchros2_tutorials_example:/ros_ws/install/spot_examples:/ros_ws/install/spot_common:/ros_ws/install/synchros2:/ros_ws/install/rtabmap_python:/ros_ws/install/rtabmap_lidar_custom:/opt/ros/humble')]), 'shell': False}
+[0.099060] (-) TimerEvent: {}
+[0.199447] (-) TimerEvent: {}
+[0.268951] (custom_msg_srv) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.299623] (-) TimerEvent: {}
+[0.380824] (custom_msg_srv) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.399951] (custom_msg_srv) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.400142] (-) TimerEvent: {}
+[0.476974] (custom_msg_srv) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.482271] (custom_msg_srv) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.483288] (custom_msg_srv) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.484652] (custom_msg_srv) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.489892] (custom_msg_srv) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.500374] (-) TimerEvent: {}
+[0.560231] (custom_msg_srv) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.565388] (custom_msg_srv) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.565719] (custom_msg_srv) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.565956] (custom_msg_srv) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.600644] (-) TimerEvent: {}
+[0.601974] (custom_msg_srv) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.700849] (-) TimerEvent: {}
+[0.740219] (custom_msg_srv) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.800960] (-) TimerEvent: {}
+[0.901465] (-) TimerEvent: {}
+[0.918315] (custom_msg_srv) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.001701] (-) TimerEvent: {}
+[1.080759] (custom_msg_srv) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.095837] (custom_msg_srv) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.101913] (-) TimerEvent: {}
+[1.118022] (custom_msg_srv) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.160291] (custom_msg_srv) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.197775] (custom_msg_srv) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.202101] (-) TimerEvent: {}
+[1.268351] (custom_msg_srv) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.302391] (-) TimerEvent: {}
+[1.402828] (-) TimerEvent: {}
+[1.503228] (-) TimerEvent: {}
+[1.572467] (custom_msg_srv) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.603539] (-) TimerEvent: {}
+[1.704033] (-) TimerEvent: {}
+[1.804429] (-) TimerEvent: {}
+[1.904773] (-) TimerEvent: {}
+[1.938363] (custom_msg_srv) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.005088] (-) TimerEvent: {}
+[2.064051] (custom_msg_srv) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.087621] (custom_msg_srv) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[2.095512] (custom_msg_srv) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.105285] (-) TimerEvent: {}
+[2.140115] (custom_msg_srv) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[2.140271] (custom_msg_srv) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.140324] (custom_msg_srv) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.140373] (custom_msg_srv) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.155688] (custom_msg_srv) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.205576] (-) TimerEvent: {}
+[2.225265] (custom_msg_srv) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.295837] (custom_msg_srv) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.299016] (custom_msg_srv) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.304230] (custom_msg_srv) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.305793] (-) TimerEvent: {}
+[2.363590] (custom_msg_srv) StdoutLine: {'line': b'-- Generating done\n'}
+[2.376133] (custom_msg_srv) StdoutLine: {'line': b'-- Build files have been written to: /ros2_ws_dev/build/custom_msg_srv\n'}
+[2.385289] (custom_msg_srv) CommandEnded: {'returncode': 0}
+[2.385619] (custom_msg_srv) JobProgress: {'identifier': 'custom_msg_srv', 'progress': 'build'}
+[2.385641] (custom_msg_srv) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ros2_ws_dev/build/custom_msg_srv', '--', '-j8', '-l8'], 'cwd': '/ros2_ws_dev/build/custom_msg_srv', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', '08640b45cf10'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ros_ws/install/synchros2_tutorials_interfaces_example/lib:/ros_ws/install/spot_driver/lib:/ros_ws/install/spot_ros2_control/lib:/ros_ws/install/spot_rviz_plugins/lib:/ros_ws/install/spot_hardware_interface/lib:/ros_ws/install/spot_controllers/lib:/ros_ws/install/spot_msgs/lib:/ros_ws/install/rtabmap_slam/lib:/ros_ws/install/rtabmap_odom/lib:/ros_ws/install/rtabmap_util/lib:/ros_ws/install/rtabmap_sync/lib:/ros_ws/install/rtabmap_rviz_plugins/lib:/ros_ws/install/rtabmap_conversions/lib:/ros_ws/install/rtabmap_msgs/lib:/ros_ws/install/rtabmap_costmap_plugins/lib:/ros_ws/install/rtabmap/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/spot-cpp-sdk/lib:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/ros2_ws_dev/src'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('COLCON_PREFIX_PATH', '/ros2_ws_dev/install:/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/ros_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/ros_ws/install/rtabmap/lib/pkgconfig'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/ros_ws/install/rtabmap/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/ros_ws/install/synchros2_tutorials_example:/ros_ws/install/synchros2_tutorials_interfaces_example:/ros_ws/install/spot_driver:/ros_ws/install/spot_ros2_control:/ros_ws/install/spot_examples:/ros_ws/install/spot_common:/ros_ws/install/synchros2:/ros_ws/install/spot_rviz_plugins:/ros_ws/install/spot_hardware_interface:/ros_ws/install/spot_controllers:/ros_ws/install/spot_msgs:/ros_ws/install/spot_description:/ros_ws/install/rtabmap_ros:/ros_ws/install/rtabmap_launch:/ros_ws/install/rtabmap_examples:/ros_ws/install/rtabmap_demos:/ros_ws/install/rtabmap_viz:/ros_ws/install/rtabmap_slam:/ros_ws/install/rtabmap_odom:/ros_ws/install/rtabmap_util:/ros_ws/install/rtabmap_sync:/ros_ws/install/rtabmap_rviz_plugins:/ros_ws/install/rtabmap_python:/ros_ws/install/rtabmap_conversions:/ros_ws/install/rtabmap_msgs:/ros_ws/install/rtabmap_lidar_custom:/ros_ws/install/rtabmap_costmap_plugins:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/ros2_ws_dev/build/custom_msg_srv'), ('PYTHONPATH', '/ros_ws/build/synchros2_tutorials_example:/ros_ws/install/synchros2_tutorials_example/lib/python3.10/site-packages:/ros_ws/install/synchros2_tutorials_interfaces_example/local/lib/python3.10/dist-packages:/ros_ws/install/spot_driver/local/lib/python3.10/dist-packages:/ros_ws/build/spot_examples:/ros_ws/install/spot_examples/lib/python3.10/site-packages:/ros_ws/build/spot_common:/ros_ws/install/spot_common/lib/python3.10/site-packages:/ros_ws/build/synchros2:/ros_ws/install/synchros2/lib/python3.10/site-packages:/ros_ws/build/spot_wrapper:/ros_ws/install/spot_wrapper/lib/python3.10/site-packages:/ros_ws/install/spot_msgs/local/lib/python3.10/dist-packages:/ros_ws/build/rtabmap_python:/ros_ws/install/rtabmap_python/lib/python3.10/site-packages:/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:/ros_ws/build/rtabmap_lidar_custom:/ros_ws/install/rtabmap_lidar_custom/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ros_ws/install/synchros2_tutorials_interfaces_example:/ros_ws/install/spot_driver:/ros_ws/install/spot_ros2_control:/ros_ws/install/spot_rviz_plugins:/ros_ws/install/spot_hardware_interface:/ros_ws/install/spot_controllers:/ros_ws/install/spot_msgs:/ros_ws/install/spot_description:/ros_ws/install/rtabmap_ros:/ros_ws/install/rtabmap_launch:/ros_ws/install/rtabmap_examples:/ros_ws/install/rtabmap_demos:/ros_ws/install/rtabmap_viz:/ros_ws/install/rtabmap_slam:/ros_ws/install/rtabmap_odom:/ros_ws/install/rtabmap_util:/ros_ws/install/rtabmap_sync:/ros_ws/install/rtabmap_rviz_plugins:/ros_ws/install/rtabmap_conversions:/ros_ws/install/rtabmap_msgs:/ros_ws/install/rtabmap_costmap_plugins:/ros_ws/install/rtabmap:/ros_ws/install/synchros2_tutorials_example:/ros_ws/install/spot_examples:/ros_ws/install/spot_common:/ros_ws/install/synchros2:/ros_ws/install/rtabmap_python:/ros_ws/install/rtabmap_lidar_custom:/opt/ros/humble')]), 'shell': False}
+[2.406017] (-) TimerEvent: {}
+[2.422585] (custom_msg_srv) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.434266] (custom_msg_srv) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.443302] (custom_msg_srv) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_copy_custom_msg_srv\n'}
+[2.506237] (-) TimerEvent: {}
+[2.606620] (-) TimerEvent: {}
+[2.697049] (custom_msg_srv) StdoutLine: {'line': b'running egg_info\n'}
+[2.697375] (custom_msg_srv) StdoutLine: {'line': b'creating custom_msg_srv.egg-info\n'}
+[2.697903] (custom_msg_srv) StdoutLine: {'line': b'writing custom_msg_srv.egg-info/PKG-INFO\n'}
+[2.698183] (custom_msg_srv) StdoutLine: {'line': b'writing dependency_links to custom_msg_srv.egg-info/dependency_links.txt\n'}
+[2.698451] (custom_msg_srv) StdoutLine: {'line': b'writing top-level names to custom_msg_srv.egg-info/top_level.txt\n'}
+[2.698648] (custom_msg_srv) StdoutLine: {'line': b"writing manifest file 'custom_msg_srv.egg-info/SOURCES.txt'\n"}
+[2.702437] (custom_msg_srv) StdoutLine: {'line': b"reading manifest file 'custom_msg_srv.egg-info/SOURCES.txt'\n"}
+[2.702906] (custom_msg_srv) StdoutLine: {'line': b"writing manifest file 'custom_msg_srv.egg-info/SOURCES.txt'\n"}
+[2.706839] (-) TimerEvent: {}
+[2.727697] (custom_msg_srv) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_build_custom_msg_srv_egg\n'}
+[2.806990] (-) TimerEvent: {}
+[2.844699] (custom_msg_srv) StdoutLine: {'line': b'[  4%] Built target custom_msg_srv__cpp\n'}
+[2.858479] (custom_msg_srv) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.860369] (custom_msg_srv) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.860660] (custom_msg_srv) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.864940] (custom_msg_srv) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/custom_msg_srv__rosidl_generator_c.dir/rosidl_generator_c/custom_msg_srv/msg/detail/trajectory__functions.c.o\x1b[0m\n'}
+[2.865157] (custom_msg_srv) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/custom_msg_srv__rosidl_generator_c.dir/rosidl_generator_c/custom_msg_srv/msg/detail/rotate__functions.c.o\x1b[0m\n'}
+[2.865477] (custom_msg_srv) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/custom_msg_srv__rosidl_generator_c.dir/rosidl_generator_c/custom_msg_srv/srv/detail/get_battery_state__functions.c.o\x1b[0m\n'}
+[2.907128] (-) TimerEvent: {}
+[2.962855] (custom_msg_srv) StdoutLine: {'line': b'[ 19%] \x1b[32m\x1b[1mLinking C shared library libcustom_msg_srv__rosidl_generator_c.so\x1b[0m\n'}
+[2.998783] (custom_msg_srv) StdoutLine: {'line': b'[ 19%] Built target custom_msg_srv__rosidl_generator_c\n'}
+[3.007250] (-) TimerEvent: {}
+[3.010764] (custom_msg_srv) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.011492] (custom_msg_srv) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[3.012056] (custom_msg_srv) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.133014] (-) TimerEvent: {}
+[3.233491] (-) TimerEvent: {}
+[3.261129] (custom_msg_srv) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/custom_msg_srv__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_msg_srv/msg/rotate__type_support.cpp.o\x1b[0m\n'}
+[3.268674] (custom_msg_srv) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/custom_msg_srv__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_msg_srv/msg/trajectory__type_support.cpp.o\x1b[0m\n'}
+[3.272732] (custom_msg_srv) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/custom_msg_srv__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_msg_srv/srv/get_battery_state__type_support.cpp.o\x1b[0m\n'}
+[3.289328] (custom_msg_srv) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/custom_msg_srv__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_msg_srv/msg/detail/trajectory__type_support.cpp.o\x1b[0m\n'}
+[3.333599] (-) TimerEvent: {}
+[3.368785] (custom_msg_srv) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/custom_msg_srv__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_msg_srv/msg/detail/dds_fastrtps/trajectory__type_support.cpp.o\x1b[0m\n'}
+[3.433818] (-) TimerEvent: {}
+[3.435367] (custom_msg_srv) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/custom_msg_srv__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_msg_srv/msg/trajectory__type_support.cpp.o\x1b[0m\n'}
+[3.487136] (custom_msg_srv) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/custom_msg_srv__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_msg_srv/msg/rotate__type_support.cpp.o\x1b[0m\n'}
+[3.526397] (custom_msg_srv) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/custom_msg_srv__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_msg_srv/srv/get_battery_state__type_support.cpp.o\x1b[0m\n'}
+[3.531514] (custom_msg_srv) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding C object CMakeFiles/custom_msg_srv__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_msg_srv/msg/detail/trajectory__type_support.c.o\x1b[0m\n'}
+[3.533934] (-) TimerEvent: {}
+[3.569405] (custom_msg_srv) StdoutLine: {'line': b'[ 46%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_msg_srv__rosidl_typesupport_c.so\x1b[0m\n'}
+[3.583238] (custom_msg_srv) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/custom_msg_srv__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_msg_srv/msg/detail/rotate__type_support.c.o\x1b[0m\n'}
+[3.591894] (custom_msg_srv) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/custom_msg_srv__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_msg_srv/msg/detail/trajectory__type_support_c.cpp.o\x1b[0m\n'}
+[3.634146] (-) TimerEvent: {}
+[3.636996] (custom_msg_srv) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/custom_msg_srv__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_msg_srv/srv/detail/get_battery_state__type_support.c.o\x1b[0m\n'}
+[3.637476] (custom_msg_srv) StdoutLine: {'line': b'[ 53%] Built target custom_msg_srv__rosidl_typesupport_c\n'}
+[3.655797] (custom_msg_srv) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/custom_msg_srv__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_msg_srv/msg/detail/rotate__type_support_c.cpp.o\x1b[0m\n'}
+[3.678208] (custom_msg_srv) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/custom_msg_srv__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_msg_srv/srv/detail/get_battery_state__type_support_c.cpp.o\x1b[0m\n'}
+[3.679875] (custom_msg_srv) StdoutLine: {'line': b'[ 59%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_msg_srv__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[3.685018] (custom_msg_srv) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/custom_msg_srv__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_msg_srv/msg/detail/dds_fastrtps/rotate__type_support.cpp.o\x1b[0m\n'}
+[3.716244] (custom_msg_srv) StdoutLine: {'line': b'[ 63%] \x1b[32m\x1b[1mLinking C shared library libcustom_msg_srv__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[3.739339] (-) TimerEvent: {}
+[3.794202] (custom_msg_srv) StdoutLine: {'line': b'[ 63%] Built target custom_msg_srv__rosidl_typesupport_cpp\n'}
+[3.796523] (custom_msg_srv) StdoutLine: {'line': b'[ 63%] Built target custom_msg_srv__rosidl_typesupport_introspection_c\n'}
+[3.809629] (custom_msg_srv) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/custom_msg_srv__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_msg_srv/srv/detail/dds_fastrtps/get_battery_state__type_support.cpp.o\x1b[0m\n'}
+[3.811901] (custom_msg_srv) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/custom_msg_srv__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_msg_srv/msg/detail/rotate__type_support.cpp.o\x1b[0m\n'}
+[3.841049] (-) TimerEvent: {}
+[3.911676] (custom_msg_srv) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/custom_msg_srv__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_msg_srv/srv/detail/get_battery_state__type_support.cpp.o\x1b[0m\n'}
+[3.941174] (-) TimerEvent: {}
+[4.042455] (-) TimerEvent: {}
+[4.142961] (-) TimerEvent: {}
+[4.203898] (custom_msg_srv) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_msg_srv__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[4.243164] (-) TimerEvent: {}
+[4.277923] (custom_msg_srv) StdoutLine: {'line': b'[ 72%] Built target custom_msg_srv__rosidl_typesupport_fastrtps_c\n'}
+[4.310297] (custom_msg_srv) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_msg_srv__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[4.342998] (custom_msg_srv) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_msg_srv__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[4.343164] (-) TimerEvent: {}
+[4.371469] (custom_msg_srv) StdoutLine: {'line': b'[ 76%] Built target custom_msg_srv__rosidl_typesupport_fastrtps_cpp\n'}
+[4.397828] (custom_msg_srv) StdoutLine: {'line': b'[ 76%] Built target custom_msg_srv__rosidl_typesupport_introspection_cpp\n'}
+[4.414818] (custom_msg_srv) StdoutLine: {'line': b'[ 76%] Built target custom_msg_srv\n'}
+[4.431302] (custom_msg_srv) StdoutLine: {'line': b'[ 78%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[4.443374] (-) TimerEvent: {}
+[4.543850] (-) TimerEvent: {}
+[4.644276] (-) TimerEvent: {}
+[4.744671] (-) TimerEvent: {}
+[4.845091] (-) TimerEvent: {}
+[4.921607] (custom_msg_srv) StdoutLine: {'line': b'[ 78%] Built target custom_msg_srv__py\n'}
+[4.941411] (custom_msg_srv) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/custom_msg_srv__rosidl_generator_py.dir/rosidl_generator_py/custom_msg_srv/msg/_trajectory_s.c.o\x1b[0m\n'}
+[4.943162] (custom_msg_srv) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/custom_msg_srv__rosidl_generator_py.dir/rosidl_generator_py/custom_msg_srv/srv/_get_battery_state_s.c.o\x1b[0m\n'}
+[4.943286] (custom_msg_srv) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/custom_msg_srv__rosidl_generator_py.dir/rosidl_generator_py/custom_msg_srv/msg/_rotate_s.c.o\x1b[0m\n'}
+[4.945212] (-) TimerEvent: {}
+[5.045542] (-) TimerEvent: {}
+[5.110128] (custom_msg_srv) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_msg_srv/libcustom_msg_srv__rosidl_generator_py.so\x1b[0m\n'}
+[5.145663] (-) TimerEvent: {}
+[5.146595] (custom_msg_srv) StdoutLine: {'line': b'[ 87%] Built target custom_msg_srv__rosidl_generator_py\n'}
+[5.171801] (custom_msg_srv) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/custom_msg_srv__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/custom_msg_srv/_custom_msg_srv_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[5.172519] (custom_msg_srv) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/custom_msg_srv__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/custom_msg_srv/_custom_msg_srv_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[5.174022] (custom_msg_srv) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/custom_msg_srv__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/custom_msg_srv/_custom_msg_srv_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[5.245839] (-) TimerEvent: {}
+[5.268717] (custom_msg_srv) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_msg_srv/custom_msg_srv_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.269964] (custom_msg_srv) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_msg_srv/custom_msg_srv_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.270158] (custom_msg_srv) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_msg_srv/custom_msg_srv_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.303181] (custom_msg_srv) StdoutLine: {'line': b'[100%] Built target custom_msg_srv__rosidl_typesupport_c__pyext\n'}
+[5.305924] (custom_msg_srv) StdoutLine: {'line': b'[100%] Built target custom_msg_srv__rosidl_typesupport_introspection_c__pyext\n'}
+[5.306056] (custom_msg_srv) StdoutLine: {'line': b'[100%] Built target custom_msg_srv__rosidl_typesupport_fastrtps_c__pyext\n'}
+[5.316679] (custom_msg_srv) CommandEnded: {'returncode': 0}
+[5.318240] (custom_msg_srv) JobProgress: {'identifier': 'custom_msg_srv', 'progress': 'install'}
+[5.324920] (custom_msg_srv) Command: {'cmd': ['/usr/bin/cmake', '--install', '/ros2_ws_dev/build/custom_msg_srv'], 'cwd': '/ros2_ws_dev/build/custom_msg_srv', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', '08640b45cf10'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ros_ws/install/synchros2_tutorials_interfaces_example/lib:/ros_ws/install/spot_driver/lib:/ros_ws/install/spot_ros2_control/lib:/ros_ws/install/spot_rviz_plugins/lib:/ros_ws/install/spot_hardware_interface/lib:/ros_ws/install/spot_controllers/lib:/ros_ws/install/spot_msgs/lib:/ros_ws/install/rtabmap_slam/lib:/ros_ws/install/rtabmap_odom/lib:/ros_ws/install/rtabmap_util/lib:/ros_ws/install/rtabmap_sync/lib:/ros_ws/install/rtabmap_rviz_plugins/lib:/ros_ws/install/rtabmap_conversions/lib:/ros_ws/install/rtabmap_msgs/lib:/ros_ws/install/rtabmap_costmap_plugins/lib:/ros_ws/install/rtabmap/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/spot-cpp-sdk/lib:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/ros2_ws_dev/src'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('COLCON_PREFIX_PATH', '/ros2_ws_dev/install:/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/ros_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/ros_ws/install/rtabmap/lib/pkgconfig'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/ros_ws/install/rtabmap/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/ros_ws/install/synchros2_tutorials_example:/ros_ws/install/synchros2_tutorials_interfaces_example:/ros_ws/install/spot_driver:/ros_ws/install/spot_ros2_control:/ros_ws/install/spot_examples:/ros_ws/install/spot_common:/ros_ws/install/synchros2:/ros_ws/install/spot_rviz_plugins:/ros_ws/install/spot_hardware_interface:/ros_ws/install/spot_controllers:/ros_ws/install/spot_msgs:/ros_ws/install/spot_description:/ros_ws/install/rtabmap_ros:/ros_ws/install/rtabmap_launch:/ros_ws/install/rtabmap_examples:/ros_ws/install/rtabmap_demos:/ros_ws/install/rtabmap_viz:/ros_ws/install/rtabmap_slam:/ros_ws/install/rtabmap_odom:/ros_ws/install/rtabmap_util:/ros_ws/install/rtabmap_sync:/ros_ws/install/rtabmap_rviz_plugins:/ros_ws/install/rtabmap_python:/ros_ws/install/rtabmap_conversions:/ros_ws/install/rtabmap_msgs:/ros_ws/install/rtabmap_lidar_custom:/ros_ws/install/rtabmap_costmap_plugins:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/ros2_ws_dev/build/custom_msg_srv'), ('PYTHONPATH', '/ros_ws/build/synchros2_tutorials_example:/ros_ws/install/synchros2_tutorials_example/lib/python3.10/site-packages:/ros_ws/install/synchros2_tutorials_interfaces_example/local/lib/python3.10/dist-packages:/ros_ws/install/spot_driver/local/lib/python3.10/dist-packages:/ros_ws/build/spot_examples:/ros_ws/install/spot_examples/lib/python3.10/site-packages:/ros_ws/build/spot_common:/ros_ws/install/spot_common/lib/python3.10/site-packages:/ros_ws/build/synchros2:/ros_ws/install/synchros2/lib/python3.10/site-packages:/ros_ws/build/spot_wrapper:/ros_ws/install/spot_wrapper/lib/python3.10/site-packages:/ros_ws/install/spot_msgs/local/lib/python3.10/dist-packages:/ros_ws/build/rtabmap_python:/ros_ws/install/rtabmap_python/lib/python3.10/site-packages:/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:/ros_ws/build/rtabmap_lidar_custom:/ros_ws/install/rtabmap_lidar_custom/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ros_ws/install/synchros2_tutorials_interfaces_example:/ros_ws/install/spot_driver:/ros_ws/install/spot_ros2_control:/ros_ws/install/spot_rviz_plugins:/ros_ws/install/spot_hardware_interface:/ros_ws/install/spot_controllers:/ros_ws/install/spot_msgs:/ros_ws/install/spot_description:/ros_ws/install/rtabmap_ros:/ros_ws/install/rtabmap_launch:/ros_ws/install/rtabmap_examples:/ros_ws/install/rtabmap_demos:/ros_ws/install/rtabmap_viz:/ros_ws/install/rtabmap_slam:/ros_ws/install/rtabmap_odom:/ros_ws/install/rtabmap_util:/ros_ws/install/rtabmap_sync:/ros_ws/install/rtabmap_rviz_plugins:/ros_ws/install/rtabmap_conversions:/ros_ws/install/rtabmap_msgs:/ros_ws/install/rtabmap_costmap_plugins:/ros_ws/install/rtabmap:/ros_ws/install/synchros2_tutorials_example:/ros_ws/install/spot_examples:/ros_ws/install/spot_common:/ros_ws/install/synchros2:/ros_ws/install/rtabmap_python:/ros_ws/install/rtabmap_lidar_custom:/opt/ros/humble')]), 'shell': False}
+[5.332202] (custom_msg_srv) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.333337] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/share/ament_index/resource_index/rosidl_interfaces/custom_msg_srv\n'}
+[5.333543] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv\n'}
+[5.334321] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/srv\n'}
+[5.334672] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/srv/detail\n'}
+[5.334730] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/srv/detail/get_battery_state__functions.h\n'}
+[5.334832] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/srv/detail/get_battery_state__type_support.h\n'}
+[5.335017] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/srv/detail/get_battery_state__functions.c\n'}
+[5.335087] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/srv/detail/get_battery_state__struct.h\n'}
+[5.335330] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/srv/get_battery_state.h\n'}
+[5.335439] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg\n'}
+[5.335632] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg/detail\n'}
+[5.335702] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg/detail/rotate__functions.h\n'}
+[5.335872] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg/detail/trajectory__functions.h\n'}
+[5.336029] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg/detail/trajectory__type_support.h\n'}
+[5.336223] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg/detail/rotate__type_support.h\n'}
+[5.336397] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg/detail/rotate__struct.h\n'}
+[5.336628] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg/detail/rotate__functions.c\n'}
+[5.336709] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg/detail/trajectory__struct.h\n'}
+[5.336830] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg/detail/trajectory__functions.c\n'}
+[5.336987] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg/rotate.h\n'}
+[5.337197] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg/trajectory.h\n'}
+[5.337321] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg/rosidl_generator_c__visibility_control.h\n'}
+[5.337990] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/environment/library_path.sh\n'}
+[5.338203] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/environment/library_path.dsv\n'}
+[5.338463] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/lib/libcustom_msg_srv__rosidl_generator_c.so\n'}
+[5.338892] (custom_msg_srv) StdoutLine: {'line': b'-- Set runtime path of "/ros2_ws_dev/install/custom_msg_srv/lib/libcustom_msg_srv__rosidl_generator_c.so" to ""\n'}
+[5.339086] (custom_msg_srv) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv\n'}
+[5.339214] (custom_msg_srv) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/srv\n'}
+[5.339332] (custom_msg_srv) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/srv/detail\n'}
+[5.339450] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/srv/detail/get_battery_state__rosidl_typesupport_fastrtps_c.h\n'}
+[5.339568] (custom_msg_srv) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg\n'}
+[5.339686] (custom_msg_srv) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg/detail\n'}
+[5.339856] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg/detail/rotate__rosidl_typesupport_fastrtps_c.h\n'}
+[5.340076] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg/detail/trajectory__rosidl_typesupport_fastrtps_c.h\n'}
+[5.340132] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[5.340249] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/lib/libcustom_msg_srv__rosidl_typesupport_fastrtps_c.so\n'}
+[5.340366] (custom_msg_srv) StdoutLine: {'line': b'-- Set runtime path of "/ros2_ws_dev/install/custom_msg_srv/lib/libcustom_msg_srv__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[5.340484] (custom_msg_srv) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv\n'}
+[5.340600] (custom_msg_srv) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/srv\n'}
+[5.340717] (custom_msg_srv) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/srv/detail\n'}
+[5.340834] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/srv/detail/get_battery_state__builder.hpp\n'}
+[5.341037] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/srv/detail/get_battery_state__traits.hpp\n'}
+[5.341099] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/srv/detail/get_battery_state__type_support.hpp\n'}
+[5.341147] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/srv/detail/get_battery_state__struct.hpp\n'}
+[5.341265] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/srv/get_battery_state.hpp\n'}
+[5.341382] (custom_msg_srv) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg\n'}
+[5.341502] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[5.341619] (custom_msg_srv) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg/detail\n'}
+[5.341736] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg/detail/trajectory__traits.hpp\n'}
+[5.341960] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg/detail/trajectory__struct.hpp\n'}
+[5.342018] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg/detail/rotate__traits.hpp\n'}
+[5.342103] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg/detail/trajectory__type_support.hpp\n'}
+[5.342226] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg/detail/rotate__struct.hpp\n'}
+[5.342344] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg/detail/rotate__type_support.hpp\n'}
+[5.342461] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg/detail/trajectory__builder.hpp\n'}
+[5.342661] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg/detail/rotate__builder.hpp\n'}
+[5.342718] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg/trajectory.hpp\n'}
+[5.342767] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg/rotate.hpp\n'}
+[5.342830] (custom_msg_srv) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv\n'}
+[5.342947] (custom_msg_srv) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/srv\n'}
+[5.343065] (custom_msg_srv) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/srv/detail\n'}
+[5.343182] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/srv/detail/dds_fastrtps\n'}
+[5.343380] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/srv/detail/get_battery_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.343437] (custom_msg_srv) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg\n'}
+[5.343483] (custom_msg_srv) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg/detail\n'}
+[5.343583] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg/detail/trajectory__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.343758] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg/detail/rotate__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.343825] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg/detail/dds_fastrtps\n'}
+[5.343885] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[5.343943] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/lib/libcustom_msg_srv__rosidl_typesupport_fastrtps_cpp.so\n'}
+[5.344147] (custom_msg_srv) StdoutLine: {'line': b'-- Set runtime path of "/ros2_ws_dev/install/custom_msg_srv/lib/libcustom_msg_srv__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[5.344289] (custom_msg_srv) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv\n'}
+[5.344409] (custom_msg_srv) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/srv\n'}
+[5.344614] (custom_msg_srv) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/srv/detail\n'}
+[5.344689] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/srv/detail/get_battery_state__rosidl_typesupport_introspection_c.h\n'}
+[5.344737] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/srv/detail/get_battery_state__type_support.c\n'}
+[5.344783] (custom_msg_srv) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg\n'}
+[5.344905] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[5.345099] (custom_msg_srv) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg/detail\n'}
+[5.345157] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg/detail/trajectory__rosidl_typesupport_introspection_c.h\n'}
+[5.345221] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg/detail/trajectory__type_support.c\n'}
+[5.345408] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg/detail/rotate__type_support.c\n'}
+[5.345466] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg/detail/rotate__rosidl_typesupport_introspection_c.h\n'}
+[5.345581] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/lib/libcustom_msg_srv__rosidl_typesupport_introspection_c.so\n'}
+[5.345792] (custom_msg_srv) StdoutLine: {'line': b'-- Set runtime path of "/ros2_ws_dev/install/custom_msg_srv/lib/libcustom_msg_srv__rosidl_typesupport_introspection_c.so" to ""\n'}
+[5.345868] (-) TimerEvent: {}
+[5.346003] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/lib/libcustom_msg_srv__rosidl_typesupport_c.so\n'}
+[5.346227] (custom_msg_srv) StdoutLine: {'line': b'-- Set runtime path of "/ros2_ws_dev/install/custom_msg_srv/lib/libcustom_msg_srv__rosidl_typesupport_c.so" to ""\n'}
+[5.346296] (custom_msg_srv) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv\n'}
+[5.346379] (custom_msg_srv) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/srv\n'}
+[5.346512] (custom_msg_srv) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/srv/detail\n'}
+[5.346718] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/srv/detail/get_battery_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.346974] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/srv/detail/get_battery_state__type_support.cpp\n'}
+[5.347050] (custom_msg_srv) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg\n'}
+[5.347098] (custom_msg_srv) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg/detail\n'}
+[5.347143] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg/detail/rotate__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.347269] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg/detail/rotate__type_support.cpp\n'}
+[5.347405] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg/detail/trajectory__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.347687] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg/detail/trajectory__type_support.cpp\n'}
+[5.347909] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/lib/libcustom_msg_srv__rosidl_typesupport_introspection_cpp.so\n'}
+[5.347967] (custom_msg_srv) StdoutLine: {'line': b'-- Set runtime path of "/ros2_ws_dev/install/custom_msg_srv/lib/libcustom_msg_srv__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[5.348014] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/lib/libcustom_msg_srv__rosidl_typesupport_cpp.so\n'}
+[5.348159] (custom_msg_srv) StdoutLine: {'line': b'-- Set runtime path of "/ros2_ws_dev/install/custom_msg_srv/lib/libcustom_msg_srv__rosidl_typesupport_cpp.so" to ""\n'}
+[5.348239] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/environment/pythonpath.sh\n'}
+[5.348362] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/environment/pythonpath.dsv\n'}
+[5.348535] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/local/lib/python3.10/dist-packages/custom_msg_srv-0.0.0-py3.10.egg-info\n'}
+[5.349257] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/local/lib/python3.10/dist-packages/custom_msg_srv-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[5.349415] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/local/lib/python3.10/dist-packages/custom_msg_srv-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[5.349568] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/local/lib/python3.10/dist-packages/custom_msg_srv-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[5.349759] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/local/lib/python3.10/dist-packages/custom_msg_srv-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[5.349979] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/local/lib/python3.10/dist-packages/custom_msg_srv\n'}
+[5.350178] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/local/lib/python3.10/dist-packages/custom_msg_srv/custom_msg_srv_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.350437] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/local/lib/python3.10/dist-packages/custom_msg_srv/_custom_msg_srv_s.ep.rosidl_typesupport_c.c\n'}
+[5.350639] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/local/lib/python3.10/dist-packages/custom_msg_srv/__init__.py\n'}
+[5.350839] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/local/lib/python3.10/dist-packages/custom_msg_srv/_custom_msg_srv_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[5.350990] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/local/lib/python3.10/dist-packages/custom_msg_srv/srv\n'}
+[5.351166] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/local/lib/python3.10/dist-packages/custom_msg_srv/srv/_get_battery_state_s.c\n'}
+[5.351304] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/local/lib/python3.10/dist-packages/custom_msg_srv/srv/__init__.py\n'}
+[5.351462] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/local/lib/python3.10/dist-packages/custom_msg_srv/srv/_get_battery_state.py\n'}
+[5.351576] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/local/lib/python3.10/dist-packages/custom_msg_srv/libcustom_msg_srv__rosidl_generator_py.so\n'}
+[5.351769] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/local/lib/python3.10/dist-packages/custom_msg_srv/custom_msg_srv_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.351932] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/local/lib/python3.10/dist-packages/custom_msg_srv/_custom_msg_srv_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[5.352065] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/local/lib/python3.10/dist-packages/custom_msg_srv/msg\n'}
+[5.352242] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/local/lib/python3.10/dist-packages/custom_msg_srv/msg/_rotate.py\n'}
+[5.352443] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/local/lib/python3.10/dist-packages/custom_msg_srv/msg/_trajectory_s.c\n'}
+[5.352626] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/local/lib/python3.10/dist-packages/custom_msg_srv/msg/__init__.py\n'}
+[5.352758] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/local/lib/python3.10/dist-packages/custom_msg_srv/msg/_rotate_s.c\n'}
+[5.352917] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/local/lib/python3.10/dist-packages/custom_msg_srv/msg/_trajectory.py\n'}
+[5.353068] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/local/lib/python3.10/dist-packages/custom_msg_srv/custom_msg_srv_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.394422] (custom_msg_srv) StdoutLine: {'line': b"Listing '/ros2_ws_dev/install/custom_msg_srv/local/lib/python3.10/dist-packages/custom_msg_srv'...\n"}
+[5.394551] (custom_msg_srv) StdoutLine: {'line': b"Compiling '/ros2_ws_dev/install/custom_msg_srv/local/lib/python3.10/dist-packages/custom_msg_srv/__init__.py'...\n"}
+[5.394598] (custom_msg_srv) StdoutLine: {'line': b"Listing '/ros2_ws_dev/install/custom_msg_srv/local/lib/python3.10/dist-packages/custom_msg_srv/msg'...\n"}
+[5.394640] (custom_msg_srv) StdoutLine: {'line': b"Compiling '/ros2_ws_dev/install/custom_msg_srv/local/lib/python3.10/dist-packages/custom_msg_srv/msg/__init__.py'...\n"}
+[5.394681] (custom_msg_srv) StdoutLine: {'line': b"Compiling '/ros2_ws_dev/install/custom_msg_srv/local/lib/python3.10/dist-packages/custom_msg_srv/msg/_rotate.py'...\n"}
+[5.394720] (custom_msg_srv) StdoutLine: {'line': b"Compiling '/ros2_ws_dev/install/custom_msg_srv/local/lib/python3.10/dist-packages/custom_msg_srv/msg/_trajectory.py'...\n"}
+[5.394761] (custom_msg_srv) StdoutLine: {'line': b"Listing '/ros2_ws_dev/install/custom_msg_srv/local/lib/python3.10/dist-packages/custom_msg_srv/srv'...\n"}
+[5.394806] (custom_msg_srv) StdoutLine: {'line': b"Compiling '/ros2_ws_dev/install/custom_msg_srv/local/lib/python3.10/dist-packages/custom_msg_srv/srv/__init__.py'...\n"}
+[5.394847] (custom_msg_srv) StdoutLine: {'line': b"Compiling '/ros2_ws_dev/install/custom_msg_srv/local/lib/python3.10/dist-packages/custom_msg_srv/srv/_get_battery_state.py'...\n"}
+[5.398025] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/local/lib/python3.10/dist-packages/custom_msg_srv/custom_msg_srv_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.398380] (custom_msg_srv) StdoutLine: {'line': b'-- Set runtime path of "/ros2_ws_dev/install/custom_msg_srv/local/lib/python3.10/dist-packages/custom_msg_srv/custom_msg_srv_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[5.398456] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/local/lib/python3.10/dist-packages/custom_msg_srv/custom_msg_srv_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.398833] (custom_msg_srv) StdoutLine: {'line': b'-- Set runtime path of "/ros2_ws_dev/install/custom_msg_srv/local/lib/python3.10/dist-packages/custom_msg_srv/custom_msg_srv_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[5.398909] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/local/lib/python3.10/dist-packages/custom_msg_srv/custom_msg_srv_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.399142] (custom_msg_srv) StdoutLine: {'line': b'-- Set runtime path of "/ros2_ws_dev/install/custom_msg_srv/local/lib/python3.10/dist-packages/custom_msg_srv/custom_msg_srv_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[5.399220] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/lib/libcustom_msg_srv__rosidl_generator_py.so\n'}
+[5.399457] (custom_msg_srv) StdoutLine: {'line': b'-- Set runtime path of "/ros2_ws_dev/install/custom_msg_srv/lib/libcustom_msg_srv__rosidl_generator_py.so" to ""\n'}
+[5.399716] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/msg/Trajectory.idl\n'}
+[5.399933] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/msg/Rotate.idl\n'}
+[5.400382] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/srv/GetBatteryState.idl\n'}
+[5.400637] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/msg/Trajectory.msg\n'}
+[5.400725] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/msg/Rotate.msg\n'}
+[5.400948] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/srv/GetBatteryState.srv\n'}
+[5.401246] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/srv/GetBatteryState_Request.msg\n'}
+[5.401318] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/srv/GetBatteryState_Response.msg\n'}
+[5.401781] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/share/ament_index/resource_index/package_run_dependencies/custom_msg_srv\n'}
+[5.401996] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/share/ament_index/resource_index/parent_prefix_path/custom_msg_srv\n'}
+[5.402254] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/environment/ament_prefix_path.sh\n'}
+[5.402470] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/environment/ament_prefix_path.dsv\n'}
+[5.402685] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/environment/path.sh\n'}
+[5.402963] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/environment/path.dsv\n'}
+[5.403261] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/local_setup.bash\n'}
+[5.403347] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/local_setup.sh\n'}
+[5.403560] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/local_setup.zsh\n'}
+[5.403634] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/local_setup.dsv\n'}
+[5.403898] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/package.dsv\n'}
+[5.404202] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/share/ament_index/resource_index/packages/custom_msg_srv\n'}
+[5.404515] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/cmake/export_custom_msg_srv__rosidl_generator_cExport.cmake\n'}
+[5.404758] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/cmake/export_custom_msg_srv__rosidl_generator_cExport-noconfig.cmake\n'}
+[5.404979] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/cmake/export_custom_msg_srv__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[5.405235] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/cmake/export_custom_msg_srv__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[5.405449] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/cmake/export_custom_msg_srv__rosidl_generator_cppExport.cmake\n'}
+[5.405670] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/cmake/export_custom_msg_srv__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[5.405732] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/cmake/export_custom_msg_srv__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[5.405839] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/cmake/custom_msg_srv__rosidl_typesupport_introspection_cExport.cmake\n'}
+[5.405999] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/cmake/custom_msg_srv__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[5.406234] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/cmake/custom_msg_srv__rosidl_typesupport_cExport.cmake\n'}
+[5.406497] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/cmake/custom_msg_srv__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[5.406666] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/cmake/custom_msg_srv__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[5.406805] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/cmake/custom_msg_srv__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[5.407019] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/cmake/custom_msg_srv__rosidl_typesupport_cppExport.cmake\n'}
+[5.407231] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/cmake/custom_msg_srv__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[5.407474] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/cmake/export_custom_msg_srv__rosidl_generator_pyExport.cmake\n'}
+[5.407651] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/cmake/export_custom_msg_srv__rosidl_generator_pyExport-noconfig.cmake\n'}
+[5.407888] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/cmake/rosidl_cmake-extras.cmake\n'}
+[5.408059] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[5.408220] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[5.408449] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[5.408624] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[5.408823] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[5.408972] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[5.409193] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/cmake/custom_msg_srvConfig.cmake\n'}
+[5.409388] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/cmake/custom_msg_srvConfig-version.cmake\n'}
+[5.409559] (custom_msg_srv) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/package.xml\n'}
+[5.411462] (custom_msg_srv) CommandEnded: {'returncode': 0}
+[5.440533] (custom_msg_srv) JobEnded: {'identifier': 'custom_msg_srv', 'rc': 0}
+[5.441483] (controller) JobStarted: {'identifier': 'controller'}
+[5.445964] (-) TimerEvent: {}
+[5.451152] (controller) JobProgress: {'identifier': 'controller', 'progress': 'cmake'}
+[5.453298] (controller) Command: {'cmd': ['/usr/bin/cmake', '/ros2_ws_dev/src/controller/controller', '-DCMAKE_INSTALL_PREFIX=/ros2_ws_dev/install/controller'], 'cwd': '/ros2_ws_dev/build/controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', '08640b45cf10'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ros2_ws_dev/install/custom_msg_srv/lib:/ros_ws/install/synchros2_tutorials_interfaces_example/lib:/ros_ws/install/spot_driver/lib:/ros_ws/install/spot_ros2_control/lib:/ros_ws/install/spot_rviz_plugins/lib:/ros_ws/install/spot_hardware_interface/lib:/ros_ws/install/spot_controllers/lib:/ros_ws/install/spot_msgs/lib:/ros_ws/install/rtabmap_slam/lib:/ros_ws/install/rtabmap_odom/lib:/ros_ws/install/rtabmap_util/lib:/ros_ws/install/rtabmap_sync/lib:/ros_ws/install/rtabmap_rviz_plugins/lib:/ros_ws/install/rtabmap_conversions/lib:/ros_ws/install/rtabmap_msgs/lib:/ros_ws/install/rtabmap_costmap_plugins/lib:/ros_ws/install/rtabmap/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/spot-cpp-sdk/lib:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/ros2_ws_dev/src'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('COLCON_PREFIX_PATH', '/ros2_ws_dev/install:/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/ros_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/ros_ws/install/rtabmap/lib/pkgconfig'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/ros_ws/install/rtabmap/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/ros2_ws_dev/install/custom_msg_srv:/ros_ws/install/synchros2_tutorials_example:/ros_ws/install/synchros2_tutorials_interfaces_example:/ros_ws/install/spot_driver:/ros_ws/install/spot_ros2_control:/ros_ws/install/spot_examples:/ros_ws/install/spot_common:/ros_ws/install/synchros2:/ros_ws/install/spot_rviz_plugins:/ros_ws/install/spot_hardware_interface:/ros_ws/install/spot_controllers:/ros_ws/install/spot_msgs:/ros_ws/install/spot_description:/ros_ws/install/rtabmap_ros:/ros_ws/install/rtabmap_launch:/ros_ws/install/rtabmap_examples:/ros_ws/install/rtabmap_demos:/ros_ws/install/rtabmap_viz:/ros_ws/install/rtabmap_slam:/ros_ws/install/rtabmap_odom:/ros_ws/install/rtabmap_util:/ros_ws/install/rtabmap_sync:/ros_ws/install/rtabmap_rviz_plugins:/ros_ws/install/rtabmap_python:/ros_ws/install/rtabmap_conversions:/ros_ws/install/rtabmap_msgs:/ros_ws/install/rtabmap_lidar_custom:/ros_ws/install/rtabmap_costmap_plugins:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/ros2_ws_dev/build/controller'), ('PYTHONPATH', '/ros2_ws_dev/install/custom_msg_srv/local/lib/python3.10/dist-packages:/ros_ws/build/synchros2_tutorials_example:/ros_ws/install/synchros2_tutorials_example/lib/python3.10/site-packages:/ros_ws/install/synchros2_tutorials_interfaces_example/local/lib/python3.10/dist-packages:/ros_ws/install/spot_driver/local/lib/python3.10/dist-packages:/ros_ws/build/spot_examples:/ros_ws/install/spot_examples/lib/python3.10/site-packages:/ros_ws/build/spot_common:/ros_ws/install/spot_common/lib/python3.10/site-packages:/ros_ws/build/synchros2:/ros_ws/install/synchros2/lib/python3.10/site-packages:/ros_ws/build/spot_wrapper:/ros_ws/install/spot_wrapper/lib/python3.10/site-packages:/ros_ws/install/spot_msgs/local/lib/python3.10/dist-packages:/ros_ws/build/rtabmap_python:/ros_ws/install/rtabmap_python/lib/python3.10/site-packages:/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:/ros_ws/build/rtabmap_lidar_custom:/ros_ws/install/rtabmap_lidar_custom/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ros2_ws_dev/install/custom_msg_srv:/ros_ws/install/synchros2_tutorials_interfaces_example:/ros_ws/install/spot_driver:/ros_ws/install/spot_ros2_control:/ros_ws/install/spot_rviz_plugins:/ros_ws/install/spot_hardware_interface:/ros_ws/install/spot_controllers:/ros_ws/install/spot_msgs:/ros_ws/install/spot_description:/ros_ws/install/rtabmap_ros:/ros_ws/install/rtabmap_launch:/ros_ws/install/rtabmap_examples:/ros_ws/install/rtabmap_demos:/ros_ws/install/rtabmap_viz:/ros_ws/install/rtabmap_slam:/ros_ws/install/rtabmap_odom:/ros_ws/install/rtabmap_util:/ros_ws/install/rtabmap_sync:/ros_ws/install/rtabmap_rviz_plugins:/ros_ws/install/rtabmap_conversions:/ros_ws/install/rtabmap_msgs:/ros_ws/install/rtabmap_costmap_plugins:/ros_ws/install/rtabmap:/ros_ws/install/synchros2_tutorials_example:/ros_ws/install/spot_examples:/ros_ws/install/spot_common:/ros_ws/install/synchros2:/ros_ws/install/rtabmap_python:/ros_ws/install/rtabmap_lidar_custom:/opt/ros/humble')]), 'shell': False}
+[5.464871] (controller) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[5.546175] (-) TimerEvent: {}
+[5.578537] (controller) StdoutLine: {'line': b'-- Found nav2_common: 1.1.20 (/opt/ros/humble/share/nav2_common/cmake)\n'}
+[5.581017] (controller) StdoutLine: {'line': b'-- Found nav2_core: 1.1.20 (/opt/ros/humble/share/nav2_core/cmake)\n'}
+[5.616963] (controller) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[5.618432] (controller) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[5.622252] (controller) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[5.629717] (controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.638522] (controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.646340] (-) TimerEvent: {}
+[5.681178] (controller) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[5.686112] (controller) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[5.746646] (-) TimerEvent: {}
+[5.827522] (controller) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[5.846798] (-) TimerEvent: {}
+[5.947392] (-) TimerEvent: {}
+[6.047882] (-) TimerEvent: {}
+[6.148269] (-) TimerEvent: {}
+[6.188673] (controller) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[6.248453] (-) TimerEvent: {}
+[6.310817] (controller) StdoutLine: {'line': b'-- Found custom_msg_srv: 0.0.0 (/ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/cmake)\n'}
+[6.319969] (controller) StdoutLine: {'line': b'-- Setting build type to Release as none was specified.\n'}
+[6.348761] (-) TimerEvent: {}
+[6.416916] (controller) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[6.449053] (-) TimerEvent: {}
+[6.512823] (controller) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[6.513256] (controller) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /ros2_ws_dev/src/controller/controller/include\n'}
+[6.513331] (controller) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[6.514822] (controller) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[6.514950] (controller) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[6.516231] (controller) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[6.517513] (controller) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[6.517605] (controller) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[6.518519] (controller) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[6.522306] (controller) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.549278] (-) TimerEvent: {}
+[6.641545] (controller) StdoutLine: {'line': b'-- Generating done\n'}
+[6.648402] (controller) StdoutLine: {'line': b'-- Build files have been written to: /ros2_ws_dev/build/controller\n'}
+[6.649359] (-) TimerEvent: {}
+[6.657098] (controller) CommandEnded: {'returncode': 0}
+[6.658721] (controller) JobProgress: {'identifier': 'controller', 'progress': 'build'}
+[6.658792] (controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ros2_ws_dev/build/controller', '--', '-j8', '-l8'], 'cwd': '/ros2_ws_dev/build/controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', '08640b45cf10'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ros2_ws_dev/install/custom_msg_srv/lib:/ros_ws/install/synchros2_tutorials_interfaces_example/lib:/ros_ws/install/spot_driver/lib:/ros_ws/install/spot_ros2_control/lib:/ros_ws/install/spot_rviz_plugins/lib:/ros_ws/install/spot_hardware_interface/lib:/ros_ws/install/spot_controllers/lib:/ros_ws/install/spot_msgs/lib:/ros_ws/install/rtabmap_slam/lib:/ros_ws/install/rtabmap_odom/lib:/ros_ws/install/rtabmap_util/lib:/ros_ws/install/rtabmap_sync/lib:/ros_ws/install/rtabmap_rviz_plugins/lib:/ros_ws/install/rtabmap_conversions/lib:/ros_ws/install/rtabmap_msgs/lib:/ros_ws/install/rtabmap_costmap_plugins/lib:/ros_ws/install/rtabmap/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/spot-cpp-sdk/lib:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/ros2_ws_dev/src'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('COLCON_PREFIX_PATH', '/ros2_ws_dev/install:/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/ros_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/ros_ws/install/rtabmap/lib/pkgconfig'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/ros_ws/install/rtabmap/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/ros2_ws_dev/install/custom_msg_srv:/ros_ws/install/synchros2_tutorials_example:/ros_ws/install/synchros2_tutorials_interfaces_example:/ros_ws/install/spot_driver:/ros_ws/install/spot_ros2_control:/ros_ws/install/spot_examples:/ros_ws/install/spot_common:/ros_ws/install/synchros2:/ros_ws/install/spot_rviz_plugins:/ros_ws/install/spot_hardware_interface:/ros_ws/install/spot_controllers:/ros_ws/install/spot_msgs:/ros_ws/install/spot_description:/ros_ws/install/rtabmap_ros:/ros_ws/install/rtabmap_launch:/ros_ws/install/rtabmap_examples:/ros_ws/install/rtabmap_demos:/ros_ws/install/rtabmap_viz:/ros_ws/install/rtabmap_slam:/ros_ws/install/rtabmap_odom:/ros_ws/install/rtabmap_util:/ros_ws/install/rtabmap_sync:/ros_ws/install/rtabmap_rviz_plugins:/ros_ws/install/rtabmap_python:/ros_ws/install/rtabmap_conversions:/ros_ws/install/rtabmap_msgs:/ros_ws/install/rtabmap_lidar_custom:/ros_ws/install/rtabmap_costmap_plugins:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/ros2_ws_dev/build/controller'), ('PYTHONPATH', '/ros2_ws_dev/install/custom_msg_srv/local/lib/python3.10/dist-packages:/ros_ws/build/synchros2_tutorials_example:/ros_ws/install/synchros2_tutorials_example/lib/python3.10/site-packages:/ros_ws/install/synchros2_tutorials_interfaces_example/local/lib/python3.10/dist-packages:/ros_ws/install/spot_driver/local/lib/python3.10/dist-packages:/ros_ws/build/spot_examples:/ros_ws/install/spot_examples/lib/python3.10/site-packages:/ros_ws/build/spot_common:/ros_ws/install/spot_common/lib/python3.10/site-packages:/ros_ws/build/synchros2:/ros_ws/install/synchros2/lib/python3.10/site-packages:/ros_ws/build/spot_wrapper:/ros_ws/install/spot_wrapper/lib/python3.10/site-packages:/ros_ws/install/spot_msgs/local/lib/python3.10/dist-packages:/ros_ws/build/rtabmap_python:/ros_ws/install/rtabmap_python/lib/python3.10/site-packages:/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:/ros_ws/build/rtabmap_lidar_custom:/ros_ws/install/rtabmap_lidar_custom/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ros2_ws_dev/install/custom_msg_srv:/ros_ws/install/synchros2_tutorials_interfaces_example:/ros_ws/install/spot_driver:/ros_ws/install/spot_ros2_control:/ros_ws/install/spot_rviz_plugins:/ros_ws/install/spot_hardware_interface:/ros_ws/install/spot_controllers:/ros_ws/install/spot_msgs:/ros_ws/install/spot_description:/ros_ws/install/rtabmap_ros:/ros_ws/install/rtabmap_launch:/ros_ws/install/rtabmap_examples:/ros_ws/install/rtabmap_demos:/ros_ws/install/rtabmap_viz:/ros_ws/install/rtabmap_slam:/ros_ws/install/rtabmap_odom:/ros_ws/install/rtabmap_util:/ros_ws/install/rtabmap_sync:/ros_ws/install/rtabmap_rviz_plugins:/ros_ws/install/rtabmap_conversions:/ros_ws/install/rtabmap_msgs:/ros_ws/install/rtabmap_costmap_plugins:/ros_ws/install/rtabmap:/ros_ws/install/synchros2_tutorials_example:/ros_ws/install/spot_examples:/ros_ws/install/spot_common:/ros_ws/install/synchros2:/ros_ws/install/rtabmap_python:/ros_ws/install/rtabmap_lidar_custom:/opt/ros/humble')]), 'shell': False}
+[6.702307] (controller) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/pure_controller.dir/src/pure_controller.cpp.o\x1b[0m\n'}
+[6.749595] (-) TimerEvent: {}
+[6.850137] (-) TimerEvent: {}
+[6.950508] (-) TimerEvent: {}
+[7.050935] (-) TimerEvent: {}
+[7.151270] (-) TimerEvent: {}
+[7.251705] (-) TimerEvent: {}
+[7.352136] (-) TimerEvent: {}
+[7.452576] (-) TimerEvent: {}
+[7.552997] (-) TimerEvent: {}
+[7.653527] (-) TimerEvent: {}
+[7.754038] (-) TimerEvent: {}
+[7.854552] (-) TimerEvent: {}
+[7.955091] (-) TimerEvent: {}
+[8.055514] (-) TimerEvent: {}
+[8.155945] (-) TimerEvent: {}
+[8.256429] (-) TimerEvent: {}
+[8.356873] (-) TimerEvent: {}
+[8.457408] (-) TimerEvent: {}
+[8.557847] (-) TimerEvent: {}
+[8.658292] (-) TimerEvent: {}
+[8.758628] (-) TimerEvent: {}
+[8.859102] (-) TimerEvent: {}
+[8.959646] (-) TimerEvent: {}
+[9.060092] (-) TimerEvent: {}
+[9.160518] (-) TimerEvent: {}
+[9.260955] (-) TimerEvent: {}
+[9.361479] (-) TimerEvent: {}
+[9.462011] (-) TimerEvent: {}
+[9.562444] (-) TimerEvent: {}
+[9.662971] (-) TimerEvent: {}
+[9.763354] (-) TimerEvent: {}
+[9.863804] (-) TimerEvent: {}
+[9.964180] (-) TimerEvent: {}
+[10.064806] (-) TimerEvent: {}
+[10.165290] (-) TimerEvent: {}
+[10.265720] (-) TimerEvent: {}
+[10.366199] (-) TimerEvent: {}
+[10.466625] (-) TimerEvent: {}
+[10.567055] (-) TimerEvent: {}
+[10.667591] (-) TimerEvent: {}
+[10.768041] (-) TimerEvent: {}
+[10.868555] (-) TimerEvent: {}
+[10.968983] (-) TimerEvent: {}
+[11.069413] (-) TimerEvent: {}
+[11.169834] (-) TimerEvent: {}
+[11.270344] (-) TimerEvent: {}
+[11.370788] (-) TimerEvent: {}
+[11.471211] (-) TimerEvent: {}
+[11.571650] (-) TimerEvent: {}
+[11.672086] (-) TimerEvent: {}
+[11.772594] (-) TimerEvent: {}
+[11.873037] (-) TimerEvent: {}
+[11.973414] (-) TimerEvent: {}
+[12.073837] (-) TimerEvent: {}
+[12.174339] (-) TimerEvent: {}
+[12.274739] (-) TimerEvent: {}
+[12.375235] (-) TimerEvent: {}
+[12.475738] (-) TimerEvent: {}
+[12.576191] (-) TimerEvent: {}
+[12.676607] (-) TimerEvent: {}
+[12.777009] (-) TimerEvent: {}
+[12.877448] (-) TimerEvent: {}
+[12.977972] (-) TimerEvent: {}
+[13.078426] (-) TimerEvent: {}
+[13.178769] (-) TimerEvent: {}
+[13.279170] (-) TimerEvent: {}
+[13.379622] (-) TimerEvent: {}
+[13.480045] (-) TimerEvent: {}
+[13.580471] (-) TimerEvent: {}
+[13.680903] (-) TimerEvent: {}
+[13.781340] (-) TimerEvent: {}
+[13.881794] (-) TimerEvent: {}
+[13.982183] (-) TimerEvent: {}
+[14.082681] (-) TimerEvent: {}
+[14.183060] (-) TimerEvent: {}
+[14.283481] (-) TimerEvent: {}
+[14.384231] (-) TimerEvent: {}
+[14.484662] (-) TimerEvent: {}
+[14.585091] (-) TimerEvent: {}
+[14.685616] (-) TimerEvent: {}
+[14.786062] (-) TimerEvent: {}
+[14.886495] (-) TimerEvent: {}
+[14.986922] (-) TimerEvent: {}
+[15.087390] (-) TimerEvent: {}
+[15.187935] (-) TimerEvent: {}
+[15.268188] (controller) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libpure_controller.so\x1b[0m\n'}
+[15.288128] (-) TimerEvent: {}
+[15.388486] (-) TimerEvent: {}
+[15.488909] (-) TimerEvent: {}
+[15.589373] (-) TimerEvent: {}
+[15.610872] (controller) StdoutLine: {'line': b'[100%] Built target pure_controller\n'}
+[15.619909] (controller) CommandEnded: {'returncode': 0}
+[15.621634] (controller) JobProgress: {'identifier': 'controller', 'progress': 'install'}
+[15.621708] (controller) Command: {'cmd': ['/usr/bin/cmake', '--install', '/ros2_ws_dev/build/controller'], 'cwd': '/ros2_ws_dev/build/controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', '08640b45cf10'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ros2_ws_dev/install/custom_msg_srv/lib:/ros_ws/install/synchros2_tutorials_interfaces_example/lib:/ros_ws/install/spot_driver/lib:/ros_ws/install/spot_ros2_control/lib:/ros_ws/install/spot_rviz_plugins/lib:/ros_ws/install/spot_hardware_interface/lib:/ros_ws/install/spot_controllers/lib:/ros_ws/install/spot_msgs/lib:/ros_ws/install/rtabmap_slam/lib:/ros_ws/install/rtabmap_odom/lib:/ros_ws/install/rtabmap_util/lib:/ros_ws/install/rtabmap_sync/lib:/ros_ws/install/rtabmap_rviz_plugins/lib:/ros_ws/install/rtabmap_conversions/lib:/ros_ws/install/rtabmap_msgs/lib:/ros_ws/install/rtabmap_costmap_plugins/lib:/ros_ws/install/rtabmap/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/spot-cpp-sdk/lib:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/ros2_ws_dev/src'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('COLCON_PREFIX_PATH', '/ros2_ws_dev/install:/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/ros_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/ros_ws/install/rtabmap/lib/pkgconfig'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/ros_ws/install/rtabmap/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/ros2_ws_dev/install/custom_msg_srv:/ros_ws/install/synchros2_tutorials_example:/ros_ws/install/synchros2_tutorials_interfaces_example:/ros_ws/install/spot_driver:/ros_ws/install/spot_ros2_control:/ros_ws/install/spot_examples:/ros_ws/install/spot_common:/ros_ws/install/synchros2:/ros_ws/install/spot_rviz_plugins:/ros_ws/install/spot_hardware_interface:/ros_ws/install/spot_controllers:/ros_ws/install/spot_msgs:/ros_ws/install/spot_description:/ros_ws/install/rtabmap_ros:/ros_ws/install/rtabmap_launch:/ros_ws/install/rtabmap_examples:/ros_ws/install/rtabmap_demos:/ros_ws/install/rtabmap_viz:/ros_ws/install/rtabmap_slam:/ros_ws/install/rtabmap_odom:/ros_ws/install/rtabmap_util:/ros_ws/install/rtabmap_sync:/ros_ws/install/rtabmap_rviz_plugins:/ros_ws/install/rtabmap_python:/ros_ws/install/rtabmap_conversions:/ros_ws/install/rtabmap_msgs:/ros_ws/install/rtabmap_lidar_custom:/ros_ws/install/rtabmap_costmap_plugins:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/ros2_ws_dev/build/controller'), ('PYTHONPATH', '/ros2_ws_dev/install/custom_msg_srv/local/lib/python3.10/dist-packages:/ros_ws/build/synchros2_tutorials_example:/ros_ws/install/synchros2_tutorials_example/lib/python3.10/site-packages:/ros_ws/install/synchros2_tutorials_interfaces_example/local/lib/python3.10/dist-packages:/ros_ws/install/spot_driver/local/lib/python3.10/dist-packages:/ros_ws/build/spot_examples:/ros_ws/install/spot_examples/lib/python3.10/site-packages:/ros_ws/build/spot_common:/ros_ws/install/spot_common/lib/python3.10/site-packages:/ros_ws/build/synchros2:/ros_ws/install/synchros2/lib/python3.10/site-packages:/ros_ws/build/spot_wrapper:/ros_ws/install/spot_wrapper/lib/python3.10/site-packages:/ros_ws/install/spot_msgs/local/lib/python3.10/dist-packages:/ros_ws/build/rtabmap_python:/ros_ws/install/rtabmap_python/lib/python3.10/site-packages:/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:/ros_ws/build/rtabmap_lidar_custom:/ros_ws/install/rtabmap_lidar_custom/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ros2_ws_dev/install/custom_msg_srv:/ros_ws/install/synchros2_tutorials_interfaces_example:/ros_ws/install/spot_driver:/ros_ws/install/spot_ros2_control:/ros_ws/install/spot_rviz_plugins:/ros_ws/install/spot_hardware_interface:/ros_ws/install/spot_controllers:/ros_ws/install/spot_msgs:/ros_ws/install/spot_description:/ros_ws/install/rtabmap_ros:/ros_ws/install/rtabmap_launch:/ros_ws/install/rtabmap_examples:/ros_ws/install/rtabmap_demos:/ros_ws/install/rtabmap_viz:/ros_ws/install/rtabmap_slam:/ros_ws/install/rtabmap_odom:/ros_ws/install/rtabmap_util:/ros_ws/install/rtabmap_sync:/ros_ws/install/rtabmap_rviz_plugins:/ros_ws/install/rtabmap_conversions:/ros_ws/install/rtabmap_msgs:/ros_ws/install/rtabmap_costmap_plugins:/ros_ws/install/rtabmap:/ros_ws/install/synchros2_tutorials_example:/ros_ws/install/spot_examples:/ros_ws/install/spot_common:/ros_ws/install/synchros2:/ros_ws/install/rtabmap_python:/ros_ws/install/rtabmap_lidar_custom:/opt/ros/humble')]), 'shell': False}
+[15.627029] (controller) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[15.627322] (controller) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/controller/lib/libpure_controller.so\n'}
+[15.628056] (controller) StdoutLine: {'line': b'-- Set runtime path of "/ros2_ws_dev/install/controller/lib/libpure_controller.so" to ""\n'}
+[15.628156] (controller) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/controller/include/\n'}
+[15.628429] (controller) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/controller/include//nav2_pure_controller\n'}
+[15.628658] (controller) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/controller/include//nav2_pure_controller/pure_controller.hpp\n'}
+[15.629851] (controller) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/controller/share/controller/environment/library_path.sh\n'}
+[15.630090] (controller) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/controller/share/controller/environment/library_path.dsv\n'}
+[15.630343] (controller) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/controller/share/controller/pure_controller.xml\n'}
+[15.630967] (controller) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/controller/share/ament_index/resource_index/package_run_dependencies/controller\n'}
+[15.631327] (controller) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/controller/share/ament_index/resource_index/parent_prefix_path/controller\n'}
+[15.631589] (controller) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/controller/share/controller/environment/ament_prefix_path.sh\n'}
+[15.631701] (controller) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/controller/share/controller/environment/ament_prefix_path.dsv\n'}
+[15.631903] (controller) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/controller/share/controller/environment/path.sh\n'}
+[15.632268] (controller) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/controller/share/controller/environment/path.dsv\n'}
+[15.632484] (controller) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/controller/share/controller/local_setup.bash\n'}
+[15.632666] (controller) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/controller/share/controller/local_setup.sh\n'}
+[15.632835] (controller) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/controller/share/controller/local_setup.zsh\n'}
+[15.633004] (controller) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/controller/share/controller/local_setup.dsv\n'}
+[15.633299] (controller) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/controller/share/controller/package.dsv\n'}
+[15.633970] (controller) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/controller/share/ament_index/resource_index/packages/controller\n'}
+[15.634515] (controller) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/controller/share/ament_index/resource_index/nav2_core__pluginlib__plugin/controller\n'}
+[15.635124] (controller) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/controller/share/controller/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[15.635333] (controller) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/controller/share/controller/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[15.635602] (controller) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/controller/share/controller/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[15.635750] (controller) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/controller/share/controller/cmake/controllerConfig.cmake\n'}
+[15.635901] (controller) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/controller/share/controller/cmake/controllerConfig-version.cmake\n'}
+[15.636044] (controller) StdoutLine: {'line': b'-- Installing: /ros2_ws_dev/install/controller/share/controller/package.xml\n'}
+[15.638414] (controller) CommandEnded: {'returncode': 0}
+[15.650623] (controller) JobEnded: {'identifier': 'controller', 'rc': 0}
+[15.651739] (-) EventReactorShutdown: {}

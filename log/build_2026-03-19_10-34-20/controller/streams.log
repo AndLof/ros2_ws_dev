@@ -1,0 +1,31 @@
+[0.035s] Invoking command in '/ros2_ws_dev/build/controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros2_ws_dev/install/setting_goal:/ros_ws/install/synchros2_tutorials_example:/ros_ws/install/spot_examples:/ros_ws/install/spot_common:/ros_ws/install/synchros2:/ros_ws/install/rtabmap_python:/ros_ws/install/rtabmap_lidar_custom:/opt/ros/humble /usr/bin/cmake --build /ros2_ws_dev/build/controller -- -j8 -l8
+[0.326s] [100%] Built target pure_controller
+[0.337s] Invoked command in '/ros2_ws_dev/build/controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros2_ws_dev/install/setting_goal:/ros_ws/install/synchros2_tutorials_example:/ros_ws/install/spot_examples:/ros_ws/install/spot_common:/ros_ws/install/synchros2:/ros_ws/install/rtabmap_python:/ros_ws/install/rtabmap_lidar_custom:/opt/ros/humble /usr/bin/cmake --build /ros2_ws_dev/build/controller -- -j8 -l8
+[0.346s] Invoking command in '/ros2_ws_dev/build/controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros2_ws_dev/install/setting_goal:/ros_ws/install/synchros2_tutorials_example:/ros_ws/install/spot_examples:/ros_ws/install/spot_common:/ros_ws/install/synchros2:/ros_ws/install/rtabmap_python:/ros_ws/install/rtabmap_lidar_custom:/opt/ros/humble /usr/bin/cmake --install /ros2_ws_dev/build/controller
+[0.353s] -- Install configuration: "Release"
+[0.354s] -- Execute custom install script
+[0.355s] -- Up-to-date symlink: /ros2_ws_dev/install/controller/lib/libpure_controller.so
+[0.356s] -- Up-to-date symlink: /ros2_ws_dev/install/controller/include//nav2_pure_controller/pure_controller.hpp
+[0.357s] -- Up-to-date symlink: /ros2_ws_dev/install/controller/share/controller/environment/library_path.sh
+[0.357s] -- Up-to-date symlink: /ros2_ws_dev/install/controller/share/controller/environment/library_path.dsv
+[0.357s] -- Up-to-date symlink: /ros2_ws_dev/install/controller/share/controller//pure_controller.xml
+[0.358s] -- Up-to-date symlink: /ros2_ws_dev/install/controller/share/ament_index/resource_index/package_run_dependencies/controller
+[0.359s] -- Up-to-date symlink: /ros2_ws_dev/install/controller/share/ament_index/resource_index/parent_prefix_path/controller
+[0.359s] -- Up-to-date symlink: /ros2_ws_dev/install/controller/share/controller/environment/ament_prefix_path.sh
+[0.359s] -- Up-to-date symlink: /ros2_ws_dev/install/controller/share/controller/environment/ament_prefix_path.dsv
+[0.360s] -- Up-to-date symlink: /ros2_ws_dev/install/controller/share/controller/environment/path.sh
+[0.360s] -- Up-to-date symlink: /ros2_ws_dev/install/controller/share/controller/environment/path.dsv
+[0.360s] -- Up-to-date symlink: /ros2_ws_dev/install/controller/share/controller/local_setup.bash
+[0.361s] -- Up-to-date symlink: /ros2_ws_dev/install/controller/share/controller/local_setup.sh
+[0.361s] -- Up-to-date symlink: /ros2_ws_dev/install/controller/share/controller/local_setup.zsh
+[0.361s] -- Up-to-date symlink: /ros2_ws_dev/install/controller/share/controller/local_setup.dsv
+[0.361s] -- Symlinking: /ros2_ws_dev/install/controller/share/controller/package.dsv
+[0.369s] -- Up-to-date symlink: /ros2_ws_dev/install/controller/share/ament_index/resource_index/packages/controller
+[0.369s] -- Up-to-date symlink: /ros2_ws_dev/install/controller/share/ament_index/resource_index/nav2_core__pluginlib__plugin/controller
+[0.370s] -- Up-to-date symlink: /ros2_ws_dev/install/controller/share/controller/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.370s] -- Up-to-date symlink: /ros2_ws_dev/install/controller/share/controller/cmake/ament_cmake_export_libraries-extras.cmake
+[0.371s] -- Up-to-date symlink: /ros2_ws_dev/install/controller/share/controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.371s] -- Up-to-date symlink: /ros2_ws_dev/install/controller/share/controller/cmake/controllerConfig.cmake
+[0.371s] -- Up-to-date symlink: /ros2_ws_dev/install/controller/share/controller/cmake/controllerConfig-version.cmake
+[0.371s] -- Up-to-date symlink: /ros2_ws_dev/install/controller/share/controller/package.xml
+[0.374s] Invoked command in '/ros2_ws_dev/build/controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros2_ws_dev/install/setting_goal:/ros_ws/install/synchros2_tutorials_example:/ros_ws/install/spot_examples:/ros_ws/install/spot_common:/ros_ws/install/synchros2:/ros_ws/install/rtabmap_python:/ros_ws/install/rtabmap_lidar_custom:/opt/ros/humble /usr/bin/cmake --install /ros2_ws_dev/build/controller

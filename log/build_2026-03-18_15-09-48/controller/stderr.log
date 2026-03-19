@@ -1,0 +1,10 @@
+[01m[K/ros2_ws_dev/src/controller/controller/src/pure_controller.cpp:[m[K In member function ‘[01m[Kvirtual geometry_msgs::msg::TwistStamped nav2_pure_controller::PureController::computeVelocityCommands(const PoseStamped&, const Twist&, nav2_core::GoalChecker*)[m[K’:
+[01m[K/ros2_ws_dev/src/controller/controller/src/pure_controller.cpp:439:48:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kgoal_pub[m[K’
+  439 |   goal_pub.header.stamp = rclcpp::Clock().now()[01;31m[K [m[K//node_->now();  // oppure rclcpp::Clock().now() se non hai node_->now()
+      |                                                [01;31m[K^[m[K
+      |                                                [32m[K;[m[K
+  440 |   [32m[Kgoal_pub[m[K.header.frame_id = global_plan_.header.frame_id;
+      |   [32m[K~~~~~~~~[m[K                                      
+gmake[2]: *** [CMakeFiles/pure_controller.dir/build.make:76: CMakeFiles/pure_controller.dir/src/pure_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pure_controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

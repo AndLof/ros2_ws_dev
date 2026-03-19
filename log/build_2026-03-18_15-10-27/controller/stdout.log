@@ -1,0 +1,30 @@
+[35m[1mConsolidate compiler generated dependencies of target pure_controller[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/pure_controller.dir/src/pure_controller.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libpure_controller.so[0m
+[100%] Built target pure_controller
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /ros2_ws_dev/install/controller/lib/libpure_controller.so
+-- Symlinking: /ros2_ws_dev/install/controller/include//nav2_pure_controller/pure_controller.hpp
+-- Symlinking: /ros2_ws_dev/install/controller/share/controller/environment/library_path.sh
+-- Symlinking: /ros2_ws_dev/install/controller/share/controller/environment/library_path.dsv
+-- Symlinking: /ros2_ws_dev/install/controller/share/controller//pure_controller.xml
+-- Symlinking: /ros2_ws_dev/install/controller/share/ament_index/resource_index/package_run_dependencies/controller
+-- Symlinking: /ros2_ws_dev/install/controller/share/ament_index/resource_index/parent_prefix_path/controller
+-- Symlinking: /ros2_ws_dev/install/controller/share/controller/environment/ament_prefix_path.sh
+-- Symlinking: /ros2_ws_dev/install/controller/share/controller/environment/ament_prefix_path.dsv
+-- Symlinking: /ros2_ws_dev/install/controller/share/controller/environment/path.sh
+-- Symlinking: /ros2_ws_dev/install/controller/share/controller/environment/path.dsv
+-- Symlinking: /ros2_ws_dev/install/controller/share/controller/local_setup.bash
+-- Symlinking: /ros2_ws_dev/install/controller/share/controller/local_setup.sh
+-- Symlinking: /ros2_ws_dev/install/controller/share/controller/local_setup.zsh
+-- Symlinking: /ros2_ws_dev/install/controller/share/controller/local_setup.dsv
+-- Symlinking: /ros2_ws_dev/install/controller/share/controller/package.dsv
+-- Symlinking: /ros2_ws_dev/install/controller/share/ament_index/resource_index/packages/controller
+-- Symlinking: /ros2_ws_dev/install/controller/share/ament_index/resource_index/nav2_core__pluginlib__plugin/controller
+-- Symlinking: /ros2_ws_dev/install/controller/share/controller/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /ros2_ws_dev/install/controller/share/controller/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /ros2_ws_dev/install/controller/share/controller/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /ros2_ws_dev/install/controller/share/controller/cmake/controllerConfig.cmake
+-- Symlinking: /ros2_ws_dev/install/controller/share/controller/cmake/controllerConfig-version.cmake
+-- Symlinking: /ros2_ws_dev/install/controller/share/controller/package.xml

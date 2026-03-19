@@ -1,0 +1,39 @@
+[0.033s] Invoking command in '/ros2_ws_dev/build/controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros_ws/install/synchros2_tutorials_example:/ros_ws/install/spot_examples:/ros_ws/install/spot_common:/ros_ws/install/synchros2:/ros_ws/install/rtabmap_python:/ros_ws/install/rtabmap_lidar_custom:/opt/ros/humble /usr/bin/cmake /ros2_ws_dev/src/controller/controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros2_ws_dev/install/controller
+[0.130s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.275s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.303s] -- Found nav2_common: 1.1.20 (/opt/ros/humble/share/nav2_common/cmake)
+[0.304s] -- Found nav2_core: 1.1.20 (/opt/ros/humble/share/nav2_core/cmake)
+[0.383s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.387s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.398s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.415s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.433s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.489s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.493s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.644s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.043s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.250s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.373s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.374s] -- Configured cppcheck include dirs: /ros2_ws_dev/src/controller/controller/include
+[1.374s] -- Configured cppcheck exclude dirs and/or files: 
+[1.375s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.375s] -- Configured cpplint exclude dirs and/or files: 
+[1.377s] -- Added test 'lint_cmake' to check CMake code style
+[1.379s] -- Added test 'uncrustify' to check C / C++ code style
+[1.379s] -- Configured uncrustify additional arguments: 
+[1.379s] -- Added test 'xmllint' to check XML markup files
+[1.388s] -- Configuring done
+[1.531s] -- Generating done
+[1.539s] -- Build files have been written to: /ros2_ws_dev/build/controller
+[1.555s] Invoked command in '/ros2_ws_dev/build/controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros_ws/install/synchros2_tutorials_example:/ros_ws/install/spot_examples:/ros_ws/install/spot_common:/ros_ws/install/synchros2:/ros_ws/install/rtabmap_python:/ros_ws/install/rtabmap_lidar_custom:/opt/ros/humble /usr/bin/cmake /ros2_ws_dev/src/controller/controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros2_ws_dev/install/controller
+[1.557s] Invoking command in '/ros2_ws_dev/build/controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros_ws/install/synchros2_tutorials_example:/ros_ws/install/spot_examples:/ros_ws/install/spot_common:/ros_ws/install/synchros2:/ros_ws/install/rtabmap_python:/ros_ws/install/rtabmap_lidar_custom:/opt/ros/humble /usr/bin/cmake --build /ros2_ws_dev/build/controller -- -j8 -l8
+[1.595s] [35m[1mConsolidate compiler generated dependencies of target pure_controller[0m
+[1.631s] [ 50%] [32mBuilding CXX object CMakeFiles/pure_controller.dir/src/pure_controller.cpp.o[0m
+[4.836s] [01m[K/ros2_ws_dev/src/controller/controller/src/pure_controller.cpp:[m[K In member function ‘[01m[Kvirtual geometry_msgs::msg::TwistStamped nav2_pure_controller::PureController::computeVelocityCommands(const PoseStamped&, const Twist&, nav2_core::GoalChecker*)[m[K’:
+[4.836s] [01m[K/ros2_ws_dev/src/controller/controller/src/pure_controller.cpp:439:32:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Krclcpp_lifecycle::LifecycleNode::WeakPtr[m[K’ {aka ‘[01m[Kstd::weak_ptr<rclcpp_lifecycle::LifecycleNode>[m[K’}
+[4.836s]   439 |   goal_pub.header.stamp = node_[01;31m[K->[m[Know();  // oppure rclcpp::Clock().now() se non hai node_->now()
+[4.836s]       |                                [01;31m[K^~[m[K
+[6.566s] gmake[2]: *** [CMakeFiles/pure_controller.dir/build.make:76: CMakeFiles/pure_controller.dir/src/pure_controller.cpp.o] Error 1
+[6.567s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pure_controller.dir/all] Error 2
+[6.567s] gmake: *** [Makefile:146: all] Error 2
+[6.569s] Invoked command in '/ros2_ws_dev/build/controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros_ws/install/synchros2_tutorials_example:/ros_ws/install/spot_examples:/ros_ws/install/spot_common:/ros_ws/install/synchros2:/ros_ws/install/rtabmap_python:/ros_ws/install/rtabmap_lidar_custom:/opt/ros/humble /usr/bin/cmake --build /ros2_ws_dev/build/controller -- -j8 -l8

@@ -1,0 +1,8 @@
+{
+  "package_name": "custom_msg_srv",
+  "non_idl_tuples": [
+    "/ros2_ws_dev/src/custom_msg_srv:msg/Trajectory.msg",
+    "/ros2_ws_dev/src/custom_msg_srv:msg/Rotate.msg",
+    "/ros2_ws_dev/src/custom_msg_srv:srv/GetBatteryState.srv"
+  ]
+}

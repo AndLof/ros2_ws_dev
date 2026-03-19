@@ -1,0 +1,307 @@
+[0.026s] Invoking command in '/ros2_ws_dev/build/custom_msg_srv': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros_ws/install/synchros2_tutorials_example:/ros_ws/install/spot_examples:/ros_ws/install/spot_common:/ros_ws/install/synchros2:/ros_ws/install/rtabmap_python:/ros_ws/install/rtabmap_lidar_custom:/opt/ros/humble /usr/bin/cmake /ros2_ws_dev/src/custom_msg_srv -DCMAKE_INSTALL_PREFIX=/ros2_ws_dev/install/custom_msg_srv
+[0.269s] -- The C compiler identification is GNU 11.4.0
+[0.381s] -- The CXX compiler identification is GNU 11.4.0
+[0.400s] -- Detecting C compiler ABI info
+[0.477s] -- Detecting C compiler ABI info - done
+[0.482s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.483s] -- Detecting C compile features
+[0.485s] -- Detecting C compile features - done
+[0.490s] -- Detecting CXX compiler ABI info
+[0.560s] -- Detecting CXX compiler ABI info - done
+[0.565s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.566s] -- Detecting CXX compile features
+[0.566s] -- Detecting CXX compile features - done
+[0.602s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.740s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.918s] -- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.081s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.096s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.118s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.160s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.198s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.268s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.572s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.938s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.064s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.087s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.095s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.140s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.140s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.140s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.140s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.156s] -- Found PythonExtra: .so  
+[2.225s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.296s] -- Added test 'lint_cmake' to check CMake code style
+[2.299s] -- Added test 'xmllint' to check XML markup files
+[2.304s] -- Configuring done
+[2.364s] -- Generating done
+[2.376s] -- Build files have been written to: /ros2_ws_dev/build/custom_msg_srv
+[2.385s] Invoked command in '/ros2_ws_dev/build/custom_msg_srv' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros_ws/install/synchros2_tutorials_example:/ros_ws/install/spot_examples:/ros_ws/install/spot_common:/ros_ws/install/synchros2:/ros_ws/install/rtabmap_python:/ros_ws/install/rtabmap_lidar_custom:/opt/ros/humble /usr/bin/cmake /ros2_ws_dev/src/custom_msg_srv -DCMAKE_INSTALL_PREFIX=/ros2_ws_dev/install/custom_msg_srv
+[2.386s] Invoking command in '/ros2_ws_dev/build/custom_msg_srv': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros_ws/install/synchros2_tutorials_example:/ros_ws/install/spot_examples:/ros_ws/install/spot_common:/ros_ws/install/synchros2:/ros_ws/install/rtabmap_python:/ros_ws/install/rtabmap_lidar_custom:/opt/ros/humble /usr/bin/cmake --build /ros2_ws_dev/build/custom_msg_srv -- -j8 -l8
+[2.423s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.434s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.443s] [  4%] Built target ament_cmake_python_copy_custom_msg_srv
+[2.697s] running egg_info
+[2.697s] creating custom_msg_srv.egg-info
+[2.698s] writing custom_msg_srv.egg-info/PKG-INFO
+[2.698s] writing dependency_links to custom_msg_srv.egg-info/dependency_links.txt
+[2.698s] writing top-level names to custom_msg_srv.egg-info/top_level.txt
+[2.698s] writing manifest file 'custom_msg_srv.egg-info/SOURCES.txt'
+[2.702s] reading manifest file 'custom_msg_srv.egg-info/SOURCES.txt'
+[2.703s] writing manifest file 'custom_msg_srv.egg-info/SOURCES.txt'
+[2.728s] [  4%] Built target ament_cmake_python_build_custom_msg_srv_egg
+[2.845s] [  4%] Built target custom_msg_srv__cpp
+[2.858s] [  6%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.860s] [  8%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.861s] [ 10%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.865s] [ 14%] [32mBuilding C object CMakeFiles/custom_msg_srv__rosidl_generator_c.dir/rosidl_generator_c/custom_msg_srv/msg/detail/trajectory__functions.c.o[0m
+[2.865s] [ 14%] [32mBuilding C object CMakeFiles/custom_msg_srv__rosidl_generator_c.dir/rosidl_generator_c/custom_msg_srv/msg/detail/rotate__functions.c.o[0m
+[2.865s] [ 17%] [32mBuilding C object CMakeFiles/custom_msg_srv__rosidl_generator_c.dir/rosidl_generator_c/custom_msg_srv/srv/detail/get_battery_state__functions.c.o[0m
+[2.963s] [ 19%] [32m[1mLinking C shared library libcustom_msg_srv__rosidl_generator_c.so[0m
+[2.999s] [ 19%] Built target custom_msg_srv__rosidl_generator_c
+[3.011s] [ 21%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.011s] [ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.012s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.261s] [ 27%] [32mBuilding CXX object CMakeFiles/custom_msg_srv__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_msg_srv/msg/rotate__type_support.cpp.o[0m
+[3.269s] [ 29%] [32mBuilding CXX object CMakeFiles/custom_msg_srv__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_msg_srv/msg/trajectory__type_support.cpp.o[0m
+[3.273s] [ 31%] [32mBuilding CXX object CMakeFiles/custom_msg_srv__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_msg_srv/srv/get_battery_state__type_support.cpp.o[0m
+[3.289s] [ 34%] [32mBuilding CXX object CMakeFiles/custom_msg_srv__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_msg_srv/msg/detail/trajectory__type_support.cpp.o[0m
+[3.369s] [ 36%] [32mBuilding CXX object CMakeFiles/custom_msg_srv__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_msg_srv/msg/detail/dds_fastrtps/trajectory__type_support.cpp.o[0m
+[3.435s] [ 38%] [32mBuilding CXX object CMakeFiles/custom_msg_srv__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_msg_srv/msg/trajectory__type_support.cpp.o[0m
+[3.487s] [ 40%] [32mBuilding CXX object CMakeFiles/custom_msg_srv__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_msg_srv/msg/rotate__type_support.cpp.o[0m
+[3.526s] [ 42%] [32mBuilding CXX object CMakeFiles/custom_msg_srv__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_msg_srv/srv/get_battery_state__type_support.cpp.o[0m
+[3.531s] [ 44%] [32mBuilding C object CMakeFiles/custom_msg_srv__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_msg_srv/msg/detail/trajectory__type_support.c.o[0m
+[3.569s] [ 46%] [32m[1mLinking CXX shared library libcustom_msg_srv__rosidl_typesupport_c.so[0m
+[3.583s] [ 48%] [32mBuilding C object CMakeFiles/custom_msg_srv__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_msg_srv/msg/detail/rotate__type_support.c.o[0m
+[3.592s] [ 51%] [32mBuilding CXX object CMakeFiles/custom_msg_srv__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_msg_srv/msg/detail/trajectory__type_support_c.cpp.o[0m
+[3.637s] [ 53%] [32mBuilding C object CMakeFiles/custom_msg_srv__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_msg_srv/srv/detail/get_battery_state__type_support.c.o[0m
+[3.637s] [ 53%] Built target custom_msg_srv__rosidl_typesupport_c
+[3.656s] [ 55%] [32mBuilding CXX object CMakeFiles/custom_msg_srv__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_msg_srv/msg/detail/rotate__type_support_c.cpp.o[0m
+[3.678s] [ 57%] [32mBuilding CXX object CMakeFiles/custom_msg_srv__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_msg_srv/srv/detail/get_battery_state__type_support_c.cpp.o[0m
+[3.680s] [ 59%] [32m[1mLinking CXX shared library libcustom_msg_srv__rosidl_typesupport_cpp.so[0m
+[3.685s] [ 61%] [32mBuilding CXX object CMakeFiles/custom_msg_srv__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_msg_srv/msg/detail/dds_fastrtps/rotate__type_support.cpp.o[0m
+[3.716s] [ 63%] [32m[1mLinking C shared library libcustom_msg_srv__rosidl_typesupport_introspection_c.so[0m
+[3.794s] [ 63%] Built target custom_msg_srv__rosidl_typesupport_cpp
+[3.796s] [ 63%] Built target custom_msg_srv__rosidl_typesupport_introspection_c
+[3.810s] [ 65%] [32mBuilding CXX object CMakeFiles/custom_msg_srv__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_msg_srv/srv/detail/dds_fastrtps/get_battery_state__type_support.cpp.o[0m
+[3.812s] [ 68%] [32mBuilding CXX object CMakeFiles/custom_msg_srv__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_msg_srv/msg/detail/rotate__type_support.cpp.o[0m
+[3.912s] [ 70%] [32mBuilding CXX object CMakeFiles/custom_msg_srv__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_msg_srv/srv/detail/get_battery_state__type_support.cpp.o[0m
+[4.204s] [ 72%] [32m[1mLinking CXX shared library libcustom_msg_srv__rosidl_typesupport_fastrtps_c.so[0m
+[4.278s] [ 72%] Built target custom_msg_srv__rosidl_typesupport_fastrtps_c
+[4.310s] [ 74%] [32m[1mLinking CXX shared library libcustom_msg_srv__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.343s] [ 76%] [32m[1mLinking CXX shared library libcustom_msg_srv__rosidl_typesupport_introspection_cpp.so[0m
+[4.371s] [ 76%] Built target custom_msg_srv__rosidl_typesupport_fastrtps_cpp
+[4.398s] [ 76%] Built target custom_msg_srv__rosidl_typesupport_introspection_cpp
+[4.415s] [ 76%] Built target custom_msg_srv
+[4.431s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.921s] [ 78%] Built target custom_msg_srv__py
+[4.941s] [ 80%] [32mBuilding C object CMakeFiles/custom_msg_srv__rosidl_generator_py.dir/rosidl_generator_py/custom_msg_srv/msg/_trajectory_s.c.o[0m
+[4.943s] [ 85%] [32mBuilding C object CMakeFiles/custom_msg_srv__rosidl_generator_py.dir/rosidl_generator_py/custom_msg_srv/srv/_get_battery_state_s.c.o[0m
+[4.943s] [ 85%] [32mBuilding C object CMakeFiles/custom_msg_srv__rosidl_generator_py.dir/rosidl_generator_py/custom_msg_srv/msg/_rotate_s.c.o[0m
+[5.110s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/custom_msg_srv/libcustom_msg_srv__rosidl_generator_py.so[0m
+[5.146s] [ 87%] Built target custom_msg_srv__rosidl_generator_py
+[5.172s] [ 89%] [32mBuilding C object CMakeFiles/custom_msg_srv__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/custom_msg_srv/_custom_msg_srv_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.172s] [ 91%] [32mBuilding C object CMakeFiles/custom_msg_srv__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/custom_msg_srv/_custom_msg_srv_s.ep.rosidl_typesupport_c.c.o[0m
+[5.174s] [ 93%] [32mBuilding C object CMakeFiles/custom_msg_srv__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/custom_msg_srv/_custom_msg_srv_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.269s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/custom_msg_srv/custom_msg_srv_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.270s] [100%] [32m[1mLinking C shared library rosidl_generator_py/custom_msg_srv/custom_msg_srv_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.270s] [100%] [32m[1mLinking C shared library rosidl_generator_py/custom_msg_srv/custom_msg_srv_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.303s] [100%] Built target custom_msg_srv__rosidl_typesupport_c__pyext
+[5.306s] [100%] Built target custom_msg_srv__rosidl_typesupport_introspection_c__pyext
+[5.306s] [100%] Built target custom_msg_srv__rosidl_typesupport_fastrtps_c__pyext
+[5.317s] Invoked command in '/ros2_ws_dev/build/custom_msg_srv' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros_ws/install/synchros2_tutorials_example:/ros_ws/install/spot_examples:/ros_ws/install/spot_common:/ros_ws/install/synchros2:/ros_ws/install/rtabmap_python:/ros_ws/install/rtabmap_lidar_custom:/opt/ros/humble /usr/bin/cmake --build /ros2_ws_dev/build/custom_msg_srv -- -j8 -l8
+[5.325s] Invoking command in '/ros2_ws_dev/build/custom_msg_srv': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros_ws/install/synchros2_tutorials_example:/ros_ws/install/spot_examples:/ros_ws/install/spot_common:/ros_ws/install/synchros2:/ros_ws/install/rtabmap_python:/ros_ws/install/rtabmap_lidar_custom:/opt/ros/humble /usr/bin/cmake --install /ros2_ws_dev/build/custom_msg_srv
+[5.332s] -- Install configuration: ""
+[5.333s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/share/ament_index/resource_index/rosidl_interfaces/custom_msg_srv
+[5.333s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv
+[5.334s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/srv
+[5.334s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/srv/detail
+[5.335s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/srv/detail/get_battery_state__functions.h
+[5.335s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/srv/detail/get_battery_state__type_support.h
+[5.335s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/srv/detail/get_battery_state__functions.c
+[5.335s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/srv/detail/get_battery_state__struct.h
+[5.335s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/srv/get_battery_state.h
+[5.335s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg
+[5.335s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg/detail
+[5.336s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg/detail/rotate__functions.h
+[5.336s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg/detail/trajectory__functions.h
+[5.336s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg/detail/trajectory__type_support.h
+[5.336s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg/detail/rotate__type_support.h
+[5.336s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg/detail/rotate__struct.h
+[5.336s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg/detail/rotate__functions.c
+[5.337s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg/detail/trajectory__struct.h
+[5.337s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg/detail/trajectory__functions.c
+[5.337s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg/rotate.h
+[5.337s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg/trajectory.h
+[5.337s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg/rosidl_generator_c__visibility_control.h
+[5.338s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/environment/library_path.sh
+[5.338s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/environment/library_path.dsv
+[5.338s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/lib/libcustom_msg_srv__rosidl_generator_c.so
+[5.339s] -- Set runtime path of "/ros2_ws_dev/install/custom_msg_srv/lib/libcustom_msg_srv__rosidl_generator_c.so" to ""
+[5.339s] -- Up-to-date: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv
+[5.339s] -- Up-to-date: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/srv
+[5.339s] -- Up-to-date: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/srv/detail
+[5.339s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/srv/detail/get_battery_state__rosidl_typesupport_fastrtps_c.h
+[5.339s] -- Up-to-date: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg
+[5.340s] -- Up-to-date: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg/detail
+[5.340s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg/detail/rotate__rosidl_typesupport_fastrtps_c.h
+[5.340s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg/detail/trajectory__rosidl_typesupport_fastrtps_c.h
+[5.340s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.340s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/lib/libcustom_msg_srv__rosidl_typesupport_fastrtps_c.so
+[5.340s] -- Set runtime path of "/ros2_ws_dev/install/custom_msg_srv/lib/libcustom_msg_srv__rosidl_typesupport_fastrtps_c.so" to ""
+[5.340s] -- Up-to-date: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv
+[5.340s] -- Up-to-date: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/srv
+[5.341s] -- Up-to-date: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/srv/detail
+[5.341s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/srv/detail/get_battery_state__builder.hpp
+[5.341s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/srv/detail/get_battery_state__traits.hpp
+[5.341s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/srv/detail/get_battery_state__type_support.hpp
+[5.341s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/srv/detail/get_battery_state__struct.hpp
+[5.341s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/srv/get_battery_state.hpp
+[5.341s] -- Up-to-date: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg
+[5.341s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg/rosidl_generator_cpp__visibility_control.hpp
+[5.341s] -- Up-to-date: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg/detail
+[5.342s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg/detail/trajectory__traits.hpp
+[5.342s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg/detail/trajectory__struct.hpp
+[5.342s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg/detail/rotate__traits.hpp
+[5.342s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg/detail/trajectory__type_support.hpp
+[5.342s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg/detail/rotate__struct.hpp
+[5.342s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg/detail/rotate__type_support.hpp
+[5.342s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg/detail/trajectory__builder.hpp
+[5.342s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg/detail/rotate__builder.hpp
+[5.343s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg/trajectory.hpp
+[5.343s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg/rotate.hpp
+[5.343s] -- Up-to-date: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv
+[5.343s] -- Up-to-date: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/srv
+[5.343s] -- Up-to-date: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/srv/detail
+[5.343s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/srv/detail/dds_fastrtps
+[5.343s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/srv/detail/get_battery_state__rosidl_typesupport_fastrtps_cpp.hpp
+[5.343s] -- Up-to-date: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg
+[5.343s] -- Up-to-date: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg/detail
+[5.343s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg/detail/trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[5.344s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg/detail/rotate__rosidl_typesupport_fastrtps_cpp.hpp
+[5.344s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg/detail/dds_fastrtps
+[5.344s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.344s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/lib/libcustom_msg_srv__rosidl_typesupport_fastrtps_cpp.so
+[5.344s] -- Set runtime path of "/ros2_ws_dev/install/custom_msg_srv/lib/libcustom_msg_srv__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.344s] -- Up-to-date: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv
+[5.344s] -- Up-to-date: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/srv
+[5.344s] -- Up-to-date: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/srv/detail
+[5.344s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/srv/detail/get_battery_state__rosidl_typesupport_introspection_c.h
+[5.345s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/srv/detail/get_battery_state__type_support.c
+[5.345s] -- Up-to-date: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg
+[5.345s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.345s] -- Up-to-date: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg/detail
+[5.345s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg/detail/trajectory__rosidl_typesupport_introspection_c.h
+[5.345s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg/detail/trajectory__type_support.c
+[5.345s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg/detail/rotate__type_support.c
+[5.345s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg/detail/rotate__rosidl_typesupport_introspection_c.h
+[5.345s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/lib/libcustom_msg_srv__rosidl_typesupport_introspection_c.so
+[5.346s] -- Set runtime path of "/ros2_ws_dev/install/custom_msg_srv/lib/libcustom_msg_srv__rosidl_typesupport_introspection_c.so" to ""
+[5.346s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/lib/libcustom_msg_srv__rosidl_typesupport_c.so
+[5.346s] -- Set runtime path of "/ros2_ws_dev/install/custom_msg_srv/lib/libcustom_msg_srv__rosidl_typesupport_c.so" to ""
+[5.346s] -- Up-to-date: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv
+[5.346s] -- Up-to-date: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/srv
+[5.346s] -- Up-to-date: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/srv/detail
+[5.347s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/srv/detail/get_battery_state__rosidl_typesupport_introspection_cpp.hpp
+[5.347s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/srv/detail/get_battery_state__type_support.cpp
+[5.347s] -- Up-to-date: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg
+[5.347s] -- Up-to-date: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg/detail
+[5.347s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg/detail/rotate__rosidl_typesupport_introspection_cpp.hpp
+[5.347s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg/detail/rotate__type_support.cpp
+[5.347s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg/detail/trajectory__rosidl_typesupport_introspection_cpp.hpp
+[5.348s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/include/custom_msg_srv/custom_msg_srv/msg/detail/trajectory__type_support.cpp
+[5.348s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/lib/libcustom_msg_srv__rosidl_typesupport_introspection_cpp.so
+[5.348s] -- Set runtime path of "/ros2_ws_dev/install/custom_msg_srv/lib/libcustom_msg_srv__rosidl_typesupport_introspection_cpp.so" to ""
+[5.348s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/lib/libcustom_msg_srv__rosidl_typesupport_cpp.so
+[5.348s] -- Set runtime path of "/ros2_ws_dev/install/custom_msg_srv/lib/libcustom_msg_srv__rosidl_typesupport_cpp.so" to ""
+[5.348s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/environment/pythonpath.sh
+[5.348s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/environment/pythonpath.dsv
+[5.348s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/local/lib/python3.10/dist-packages/custom_msg_srv-0.0.0-py3.10.egg-info
+[5.349s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/local/lib/python3.10/dist-packages/custom_msg_srv-0.0.0-py3.10.egg-info/dependency_links.txt
+[5.349s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/local/lib/python3.10/dist-packages/custom_msg_srv-0.0.0-py3.10.egg-info/SOURCES.txt
+[5.349s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/local/lib/python3.10/dist-packages/custom_msg_srv-0.0.0-py3.10.egg-info/top_level.txt
+[5.350s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/local/lib/python3.10/dist-packages/custom_msg_srv-0.0.0-py3.10.egg-info/PKG-INFO
+[5.350s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/local/lib/python3.10/dist-packages/custom_msg_srv
+[5.350s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/local/lib/python3.10/dist-packages/custom_msg_srv/custom_msg_srv_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.350s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/local/lib/python3.10/dist-packages/custom_msg_srv/_custom_msg_srv_s.ep.rosidl_typesupport_c.c
+[5.350s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/local/lib/python3.10/dist-packages/custom_msg_srv/__init__.py
+[5.351s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/local/lib/python3.10/dist-packages/custom_msg_srv/_custom_msg_srv_s.ep.rosidl_typesupport_introspection_c.c
+[5.351s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/local/lib/python3.10/dist-packages/custom_msg_srv/srv
+[5.351s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/local/lib/python3.10/dist-packages/custom_msg_srv/srv/_get_battery_state_s.c
+[5.351s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/local/lib/python3.10/dist-packages/custom_msg_srv/srv/__init__.py
+[5.351s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/local/lib/python3.10/dist-packages/custom_msg_srv/srv/_get_battery_state.py
+[5.351s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/local/lib/python3.10/dist-packages/custom_msg_srv/libcustom_msg_srv__rosidl_generator_py.so
+[5.352s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/local/lib/python3.10/dist-packages/custom_msg_srv/custom_msg_srv_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.352s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/local/lib/python3.10/dist-packages/custom_msg_srv/_custom_msg_srv_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.352s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/local/lib/python3.10/dist-packages/custom_msg_srv/msg
+[5.352s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/local/lib/python3.10/dist-packages/custom_msg_srv/msg/_rotate.py
+[5.352s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/local/lib/python3.10/dist-packages/custom_msg_srv/msg/_trajectory_s.c
+[5.352s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/local/lib/python3.10/dist-packages/custom_msg_srv/msg/__init__.py
+[5.353s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/local/lib/python3.10/dist-packages/custom_msg_srv/msg/_rotate_s.c
+[5.353s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/local/lib/python3.10/dist-packages/custom_msg_srv/msg/_trajectory.py
+[5.353s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/local/lib/python3.10/dist-packages/custom_msg_srv/custom_msg_srv_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.394s] Listing '/ros2_ws_dev/install/custom_msg_srv/local/lib/python3.10/dist-packages/custom_msg_srv'...
+[5.394s] Compiling '/ros2_ws_dev/install/custom_msg_srv/local/lib/python3.10/dist-packages/custom_msg_srv/__init__.py'...
+[5.394s] Listing '/ros2_ws_dev/install/custom_msg_srv/local/lib/python3.10/dist-packages/custom_msg_srv/msg'...
+[5.394s] Compiling '/ros2_ws_dev/install/custom_msg_srv/local/lib/python3.10/dist-packages/custom_msg_srv/msg/__init__.py'...
+[5.394s] Compiling '/ros2_ws_dev/install/custom_msg_srv/local/lib/python3.10/dist-packages/custom_msg_srv/msg/_rotate.py'...
+[5.395s] Compiling '/ros2_ws_dev/install/custom_msg_srv/local/lib/python3.10/dist-packages/custom_msg_srv/msg/_trajectory.py'...
+[5.395s] Listing '/ros2_ws_dev/install/custom_msg_srv/local/lib/python3.10/dist-packages/custom_msg_srv/srv'...
+[5.395s] Compiling '/ros2_ws_dev/install/custom_msg_srv/local/lib/python3.10/dist-packages/custom_msg_srv/srv/__init__.py'...
+[5.395s] Compiling '/ros2_ws_dev/install/custom_msg_srv/local/lib/python3.10/dist-packages/custom_msg_srv/srv/_get_battery_state.py'...
+[5.398s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/local/lib/python3.10/dist-packages/custom_msg_srv/custom_msg_srv_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.398s] -- Set runtime path of "/ros2_ws_dev/install/custom_msg_srv/local/lib/python3.10/dist-packages/custom_msg_srv/custom_msg_srv_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.398s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/local/lib/python3.10/dist-packages/custom_msg_srv/custom_msg_srv_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.399s] -- Set runtime path of "/ros2_ws_dev/install/custom_msg_srv/local/lib/python3.10/dist-packages/custom_msg_srv/custom_msg_srv_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.399s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/local/lib/python3.10/dist-packages/custom_msg_srv/custom_msg_srv_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.399s] -- Set runtime path of "/ros2_ws_dev/install/custom_msg_srv/local/lib/python3.10/dist-packages/custom_msg_srv/custom_msg_srv_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.399s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/lib/libcustom_msg_srv__rosidl_generator_py.so
+[5.399s] -- Set runtime path of "/ros2_ws_dev/install/custom_msg_srv/lib/libcustom_msg_srv__rosidl_generator_py.so" to ""
+[5.400s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/msg/Trajectory.idl
+[5.400s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/msg/Rotate.idl
+[5.400s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/srv/GetBatteryState.idl
+[5.400s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/msg/Trajectory.msg
+[5.401s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/msg/Rotate.msg
+[5.401s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/srv/GetBatteryState.srv
+[5.401s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/srv/GetBatteryState_Request.msg
+[5.401s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/srv/GetBatteryState_Response.msg
+[5.402s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/share/ament_index/resource_index/package_run_dependencies/custom_msg_srv
+[5.402s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/share/ament_index/resource_index/parent_prefix_path/custom_msg_srv
+[5.402s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/environment/ament_prefix_path.sh
+[5.402s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/environment/ament_prefix_path.dsv
+[5.403s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/environment/path.sh
+[5.403s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/environment/path.dsv
+[5.403s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/local_setup.bash
+[5.403s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/local_setup.sh
+[5.403s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/local_setup.zsh
+[5.404s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/local_setup.dsv
+[5.404s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/package.dsv
+[5.404s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/share/ament_index/resource_index/packages/custom_msg_srv
+[5.404s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/cmake/export_custom_msg_srv__rosidl_generator_cExport.cmake
+[5.405s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/cmake/export_custom_msg_srv__rosidl_generator_cExport-noconfig.cmake
+[5.405s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/cmake/export_custom_msg_srv__rosidl_typesupport_fastrtps_cExport.cmake
+[5.405s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/cmake/export_custom_msg_srv__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.405s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/cmake/export_custom_msg_srv__rosidl_generator_cppExport.cmake
+[5.405s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/cmake/export_custom_msg_srv__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.406s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/cmake/export_custom_msg_srv__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.406s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/cmake/custom_msg_srv__rosidl_typesupport_introspection_cExport.cmake
+[5.406s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/cmake/custom_msg_srv__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.406s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/cmake/custom_msg_srv__rosidl_typesupport_cExport.cmake
+[5.406s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/cmake/custom_msg_srv__rosidl_typesupport_cExport-noconfig.cmake
+[5.406s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/cmake/custom_msg_srv__rosidl_typesupport_introspection_cppExport.cmake
+[5.407s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/cmake/custom_msg_srv__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.407s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/cmake/custom_msg_srv__rosidl_typesupport_cppExport.cmake
+[5.407s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/cmake/custom_msg_srv__rosidl_typesupport_cppExport-noconfig.cmake
+[5.407s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/cmake/export_custom_msg_srv__rosidl_generator_pyExport.cmake
+[5.407s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/cmake/export_custom_msg_srv__rosidl_generator_pyExport-noconfig.cmake
+[5.408s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/cmake/rosidl_cmake-extras.cmake
+[5.408s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.408s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.408s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/cmake/ament_cmake_export_libraries-extras.cmake
+[5.408s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/cmake/ament_cmake_export_targets-extras.cmake
+[5.409s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.409s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.409s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/cmake/custom_msg_srvConfig.cmake
+[5.409s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/cmake/custom_msg_srvConfig-version.cmake
+[5.409s] -- Installing: /ros2_ws_dev/install/custom_msg_srv/share/custom_msg_srv/package.xml
+[5.411s] Invoked command in '/ros2_ws_dev/build/custom_msg_srv' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros_ws/install/synchros2_tutorials_example:/ros_ws/install/spot_examples:/ros_ws/install/spot_common:/ros_ws/install/synchros2:/ros_ws/install/rtabmap_python:/ros_ws/install/rtabmap_lidar_custom:/opt/ros/humble /usr/bin/cmake --install /ros2_ws_dev/build/custom_msg_srv

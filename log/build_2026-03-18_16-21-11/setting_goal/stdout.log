@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/setting_goal/setting_goal.egg-info
+writing ../../build/setting_goal/setting_goal.egg-info/PKG-INFO
+writing dependency_links to ../../build/setting_goal/setting_goal.egg-info/dependency_links.txt
+writing entry points to ../../build/setting_goal/setting_goal.egg-info/entry_points.txt
+writing requirements to ../../build/setting_goal/setting_goal.egg-info/requires.txt
+writing top-level names to ../../build/setting_goal/setting_goal.egg-info/top_level.txt
+writing manifest file '../../build/setting_goal/setting_goal.egg-info/SOURCES.txt'
+reading manifest file '../../build/setting_goal/setting_goal.egg-info/SOURCES.txt'
+writing manifest file '../../build/setting_goal/setting_goal.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /ros2_ws_dev/build/setting_goal/build
+creating /ros2_ws_dev/build/setting_goal/build/lib
+creating /ros2_ws_dev/build/setting_goal/build/lib/setting_goal
+copying setting_goal/gotopoint.py -> /ros2_ws_dev/build/setting_goal/build/lib/setting_goal
+copying setting_goal/__init__.py -> /ros2_ws_dev/build/setting_goal/build/lib/setting_goal
+running install
+running install_lib
+creating /ros2_ws_dev/install/setting_goal/lib/python3.10/site-packages/setting_goal
+copying /ros2_ws_dev/build/setting_goal/build/lib/setting_goal/gotopoint.py -> /ros2_ws_dev/install/setting_goal/lib/python3.10/site-packages/setting_goal
+copying /ros2_ws_dev/build/setting_goal/build/lib/setting_goal/__init__.py -> /ros2_ws_dev/install/setting_goal/lib/python3.10/site-packages/setting_goal
+byte-compiling /ros2_ws_dev/install/setting_goal/lib/python3.10/site-packages/setting_goal/gotopoint.py to gotopoint.cpython-310.pyc
+byte-compiling /ros2_ws_dev/install/setting_goal/lib/python3.10/site-packages/setting_goal/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /ros2_ws_dev/install/setting_goal/share/ament_index
+creating /ros2_ws_dev/install/setting_goal/share/ament_index/resource_index
+creating /ros2_ws_dev/install/setting_goal/share/ament_index/resource_index/packages
+copying resource/setting_goal -> /ros2_ws_dev/install/setting_goal/share/ament_index/resource_index/packages
+copying package.xml -> /ros2_ws_dev/install/setting_goal/share/setting_goal
+running install_egg_info
+Copying ../../build/setting_goal/setting_goal.egg-info to /ros2_ws_dev/install/setting_goal/lib/python3.10/site-packages/setting_goal-0.0.0-py3.10.egg-info
+running install_scripts
+Installing gotopoint script to /ros2_ws_dev/install/setting_goal/lib/setting_goal
+writing list of installed files to '/ros2_ws_dev/build/setting_goal/install.log'

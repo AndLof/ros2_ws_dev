@@ -1,0 +1,3 @@
+/ros2_ws_dev/build/custom_msg_srv/rosidl_adapter/custom_msg_srv:msg/Trajectory.idl
+/ros2_ws_dev/build/custom_msg_srv/rosidl_adapter/custom_msg_srv:msg/Rotate.idl
+/ros2_ws_dev/build/custom_msg_srv/rosidl_adapter/custom_msg_srv:srv/GetBatteryState.idl

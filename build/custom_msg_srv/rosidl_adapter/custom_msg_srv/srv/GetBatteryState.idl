@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from custom_msg_srv/srv/GetBatteryState.srv
+// generated code does not contain a copyright notice
+
+
+module custom_msg_srv {
+  module srv {
+    struct GetBatteryState_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct GetBatteryState_Response {
+      float battery_state;
+    };
+  };
+};

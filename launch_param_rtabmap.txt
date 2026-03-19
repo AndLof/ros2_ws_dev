@@ -1,0 +1,44 @@
+ros2 launch rtabmap_launch rtabmap.launch.py \
+    use_sim_time:=true \
+    frame_id:=body \
+    odom_frame_id:=odom \
+    icp_odometry:=false \
+    visual_odometry:=false \
+    scan_cloud_topic:=/velodyne/points \
+    depth:=false \
+    subscribe_scan_cloud:=true \
+    subscribe_scan:=false \
+    approx_sync:=true \
+    queue_size:=30 \
+    publish_tf:=false \
+    publish_map_tf:=false \
+    pos_tracking_enabled:=false \
+    grid_incremental:=true \
+    map_frame_id:=map \
+    args:="--delete_db_on_start \
+           --Grid/RangeMax 20.0 \
+           --Grid/RangeMin 1.2  \
+           --Grid/RayTracing true  \
+           --Grid/ColorMapOccupancy true \
+           --Grid/NormalsSegmentation true \
+           --Grid/FlatPbstacleDetected false \
+           --Grid/MinGroundHeight -0.5 \
+           --Grid/MaxGroundHeight 0.5 \
+           --Grid/MaxGroundAngle 15 \
+           --GridGlobal/Eroded false \
+           --Optimizer/Strategy 2 \
+           --Optimizer/Robust false \
+           --Optimizer/PriorsIgnored false \
+           --Bayes/FullPredictionUpdate false \
+           --Grid/PreVoxelFiltering true \
+           --Grid/NoiseFilteringRadius 0.3 \
+           --GridGlobal/FullUpdate true \
+           --GridGlobal/UpdateError 0.005 \
+           --GridGlobal/ProbHit 0.9 \
+           --GridGlobal/ProbMiss 0.40 \
+           --Reg/Strategy 1 \
+           --Reg/PoseOptimization true \
+           --GTSAM/Optimizer 2 \
+           --RGBD/NeighborLinkRefining true \
+           --Vis/MinInliers 25  \
+           --Grid/UnknownSpaceFilled false"

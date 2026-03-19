@@ -1,0 +1,37 @@
+[0.757s] Invoking command in '/ros2_ws_dev/src/setting_goal': PYTHONPATH=/ros2_ws_dev/build/setting_goal/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_ws_dev/install/setting_goal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/setting_goal build --build-base /ros2_ws_dev/build/setting_goal/build install --record /ros2_ws_dev/build/setting_goal/install.log --single-version-externally-managed install_data
+[0.976s] running egg_info
+[0.977s] creating ../../build/setting_goal/setting_goal.egg-info
+[0.977s] writing ../../build/setting_goal/setting_goal.egg-info/PKG-INFO
+[0.977s] writing dependency_links to ../../build/setting_goal/setting_goal.egg-info/dependency_links.txt
+[0.978s] writing entry points to ../../build/setting_goal/setting_goal.egg-info/entry_points.txt
+[0.978s] writing requirements to ../../build/setting_goal/setting_goal.egg-info/requires.txt
+[0.978s] writing top-level names to ../../build/setting_goal/setting_goal.egg-info/top_level.txt
+[0.978s] writing manifest file '../../build/setting_goal/setting_goal.egg-info/SOURCES.txt'
+[0.980s] reading manifest file '../../build/setting_goal/setting_goal.egg-info/SOURCES.txt'
+[0.980s] writing manifest file '../../build/setting_goal/setting_goal.egg-info/SOURCES.txt'
+[0.981s] running build
+[0.981s] running build_py
+[0.981s] creating /ros2_ws_dev/build/setting_goal/build
+[0.981s] creating /ros2_ws_dev/build/setting_goal/build/lib
+[0.981s] creating /ros2_ws_dev/build/setting_goal/build/lib/setting_goal
+[0.981s] copying setting_goal/gotopoint.py -> /ros2_ws_dev/build/setting_goal/build/lib/setting_goal
+[0.982s] copying setting_goal/__init__.py -> /ros2_ws_dev/build/setting_goal/build/lib/setting_goal
+[0.982s] running install
+[0.982s] running install_lib
+[0.983s] creating /ros2_ws_dev/install/setting_goal/lib/python3.10/site-packages/setting_goal
+[0.984s] copying /ros2_ws_dev/build/setting_goal/build/lib/setting_goal/gotopoint.py -> /ros2_ws_dev/install/setting_goal/lib/python3.10/site-packages/setting_goal
+[0.984s] copying /ros2_ws_dev/build/setting_goal/build/lib/setting_goal/__init__.py -> /ros2_ws_dev/install/setting_goal/lib/python3.10/site-packages/setting_goal
+[0.984s] byte-compiling /ros2_ws_dev/install/setting_goal/lib/python3.10/site-packages/setting_goal/gotopoint.py to gotopoint.cpython-310.pyc
+[0.986s] byte-compiling /ros2_ws_dev/install/setting_goal/lib/python3.10/site-packages/setting_goal/__init__.py to __init__.cpython-310.pyc
+[0.987s] running install_data
+[0.987s] creating /ros2_ws_dev/install/setting_goal/share/ament_index
+[0.987s] creating /ros2_ws_dev/install/setting_goal/share/ament_index/resource_index
+[0.987s] creating /ros2_ws_dev/install/setting_goal/share/ament_index/resource_index/packages
+[0.988s] copying resource/setting_goal -> /ros2_ws_dev/install/setting_goal/share/ament_index/resource_index/packages
+[0.988s] copying package.xml -> /ros2_ws_dev/install/setting_goal/share/setting_goal
+[0.988s] running install_egg_info
+[0.990s] Copying ../../build/setting_goal/setting_goal.egg-info to /ros2_ws_dev/install/setting_goal/lib/python3.10/site-packages/setting_goal-0.0.0-py3.10.egg-info
+[0.991s] running install_scripts
+[1.011s] Installing gotopoint script to /ros2_ws_dev/install/setting_goal/lib/setting_goal
+[1.012s] writing list of installed files to '/ros2_ws_dev/build/setting_goal/install.log'
+[1.034s] Invoked command in '/ros2_ws_dev/src/setting_goal' returned '0': PYTHONPATH=/ros2_ws_dev/build/setting_goal/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_ws_dev/install/setting_goal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/setting_goal build --build-base /ros2_ws_dev/build/setting_goal/build install --record /ros2_ws_dev/build/setting_goal/install.log --single-version-externally-managed install_data

@@ -1,0 +1,111 @@
+[0.000000] (-) TimerEvent: {}
+[0.000205] (controller) JobQueued: {'identifier': 'controller', 'dependencies': OrderedDict()}
+[0.001381] (controller) JobStarted: {'identifier': 'controller'}
+[0.030896] (controller) JobProgress: {'identifier': 'controller', 'progress': 'cmake'}
+[0.033067] (controller) Command: {'cmd': ['/usr/bin/cmake', '/ros2_ws_dev/src/controller/controller', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/ros2_ws_dev/install/controller'], 'cwd': '/ros2_ws_dev/build/controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', '08640b45cf10'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ros_ws/install/synchros2_tutorials_interfaces_example/lib:/ros_ws/install/spot_driver/lib:/ros_ws/install/spot_ros2_control/lib:/ros_ws/install/spot_rviz_plugins/lib:/ros_ws/install/spot_hardware_interface/lib:/ros_ws/install/spot_controllers/lib:/ros_ws/install/spot_msgs/lib:/ros_ws/install/rtabmap_slam/lib:/ros_ws/install/rtabmap_odom/lib:/ros_ws/install/rtabmap_util/lib:/ros_ws/install/rtabmap_sync/lib:/ros_ws/install/rtabmap_rviz_plugins/lib:/ros_ws/install/rtabmap_conversions/lib:/ros_ws/install/rtabmap_msgs/lib:/ros_ws/install/rtabmap_costmap_plugins/lib:/ros_ws/install/rtabmap/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/spot-cpp-sdk/lib:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/ros2_ws_dev/src'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('COLCON_PREFIX_PATH', '/ros2_ws_dev/install:/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/ros_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/ros_ws/install/rtabmap/lib/pkgconfig'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/ros_ws/install/rtabmap/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/ros_ws/install/synchros2_tutorials_example:/ros_ws/install/synchros2_tutorials_interfaces_example:/ros_ws/install/spot_driver:/ros_ws/install/spot_ros2_control:/ros_ws/install/spot_examples:/ros_ws/install/spot_common:/ros_ws/install/synchros2:/ros_ws/install/spot_rviz_plugins:/ros_ws/install/spot_hardware_interface:/ros_ws/install/spot_controllers:/ros_ws/install/spot_msgs:/ros_ws/install/spot_description:/ros_ws/install/rtabmap_ros:/ros_ws/install/rtabmap_launch:/ros_ws/install/rtabmap_examples:/ros_ws/install/rtabmap_demos:/ros_ws/install/rtabmap_viz:/ros_ws/install/rtabmap_slam:/ros_ws/install/rtabmap_odom:/ros_ws/install/rtabmap_util:/ros_ws/install/rtabmap_sync:/ros_ws/install/rtabmap_rviz_plugins:/ros_ws/install/rtabmap_python:/ros_ws/install/rtabmap_conversions:/ros_ws/install/rtabmap_msgs:/ros_ws/install/rtabmap_lidar_custom:/ros_ws/install/rtabmap_costmap_plugins:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/ros2_ws_dev/build/controller'), ('PYTHONPATH', '/ros_ws/build/synchros2_tutorials_example:/ros_ws/install/synchros2_tutorials_example/lib/python3.10/site-packages:/ros_ws/install/synchros2_tutorials_interfaces_example/local/lib/python3.10/dist-packages:/ros_ws/install/spot_driver/local/lib/python3.10/dist-packages:/ros_ws/build/spot_examples:/ros_ws/install/spot_examples/lib/python3.10/site-packages:/ros_ws/build/spot_common:/ros_ws/install/spot_common/lib/python3.10/site-packages:/ros_ws/build/synchros2:/ros_ws/install/synchros2/lib/python3.10/site-packages:/ros_ws/build/spot_wrapper:/ros_ws/install/spot_wrapper/lib/python3.10/site-packages:/ros_ws/install/spot_msgs/local/lib/python3.10/dist-packages:/ros_ws/build/rtabmap_python:/ros_ws/install/rtabmap_python/lib/python3.10/site-packages:/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:/ros_ws/build/rtabmap_lidar_custom:/ros_ws/install/rtabmap_lidar_custom/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ros_ws/install/synchros2_tutorials_interfaces_example:/ros_ws/install/spot_driver:/ros_ws/install/spot_ros2_control:/ros_ws/install/spot_rviz_plugins:/ros_ws/install/spot_hardware_interface:/ros_ws/install/spot_controllers:/ros_ws/install/spot_msgs:/ros_ws/install/spot_description:/ros_ws/install/rtabmap_ros:/ros_ws/install/rtabmap_launch:/ros_ws/install/rtabmap_examples:/ros_ws/install/rtabmap_demos:/ros_ws/install/rtabmap_viz:/ros_ws/install/rtabmap_slam:/ros_ws/install/rtabmap_odom:/ros_ws/install/rtabmap_util:/ros_ws/install/rtabmap_sync:/ros_ws/install/rtabmap_rviz_plugins:/ros_ws/install/rtabmap_conversions:/ros_ws/install/rtabmap_msgs:/ros_ws/install/rtabmap_costmap_plugins:/ros_ws/install/rtabmap:/ros_ws/install/synchros2_tutorials_example:/ros_ws/install/spot_examples:/ros_ws/install/spot_common:/ros_ws/install/synchros2:/ros_ws/install/rtabmap_python:/ros_ws/install/rtabmap_lidar_custom:/opt/ros/humble')]), 'shell': False}
+[0.099719] (-) TimerEvent: {}
+[0.131784] (controller) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.199961] (-) TimerEvent: {}
+[0.275933] (controller) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.300098] (-) TimerEvent: {}
+[0.304340] (controller) StdoutLine: {'line': b'-- Found nav2_common: 1.1.20 (/opt/ros/humble/share/nav2_common/cmake)\n'}
+[0.305459] (controller) StdoutLine: {'line': b'-- Found nav2_core: 1.1.20 (/opt/ros/humble/share/nav2_core/cmake)\n'}
+[0.383966] (controller) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.388238] (controller) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.399724] (controller) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.400184] (-) TimerEvent: {}
+[0.416211] (controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.433961] (controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.490441] (controller) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.494418] (controller) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.500299] (-) TimerEvent: {}
+[0.600781] (-) TimerEvent: {}
+[0.645147] (controller) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.700955] (-) TimerEvent: {}
+[0.801413] (-) TimerEvent: {}
+[0.901754] (-) TimerEvent: {}
+[1.002167] (-) TimerEvent: {}
+[1.044250] (controller) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.102410] (-) TimerEvent: {}
+[1.202871] (-) TimerEvent: {}
+[1.251050] (controller) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.303130] (-) TimerEvent: {}
+[1.374656] (controller) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.375238] (controller) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /ros2_ws_dev/src/controller/controller/include\n'}
+[1.375388] (controller) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.376221] (controller) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.376345] (controller) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.378163] (controller) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.379972] (controller) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.380122] (controller) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.380790] (controller) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.389517] (controller) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.403328] (-) TimerEvent: {}
+[1.503733] (-) TimerEvent: {}
+[1.532153] (controller) StdoutLine: {'line': b'-- Generating done\n'}
+[1.540145] (controller) StdoutLine: {'line': b'-- Build files have been written to: /ros2_ws_dev/build/controller\n'}
+[1.556158] (controller) CommandEnded: {'returncode': 0}
+[1.558055] (controller) JobProgress: {'identifier': 'controller', 'progress': 'build'}
+[1.558181] (controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ros2_ws_dev/build/controller', '--', '-j8', '-l8'], 'cwd': '/ros2_ws_dev/build/controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', '08640b45cf10'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ros_ws/install/synchros2_tutorials_interfaces_example/lib:/ros_ws/install/spot_driver/lib:/ros_ws/install/spot_ros2_control/lib:/ros_ws/install/spot_rviz_plugins/lib:/ros_ws/install/spot_hardware_interface/lib:/ros_ws/install/spot_controllers/lib:/ros_ws/install/spot_msgs/lib:/ros_ws/install/rtabmap_slam/lib:/ros_ws/install/rtabmap_odom/lib:/ros_ws/install/rtabmap_util/lib:/ros_ws/install/rtabmap_sync/lib:/ros_ws/install/rtabmap_rviz_plugins/lib:/ros_ws/install/rtabmap_conversions/lib:/ros_ws/install/rtabmap_msgs/lib:/ros_ws/install/rtabmap_costmap_plugins/lib:/ros_ws/install/rtabmap/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/spot-cpp-sdk/lib:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/ros2_ws_dev/src'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('COLCON_PREFIX_PATH', '/ros2_ws_dev/install:/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/ros_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/ros_ws/install/rtabmap/lib/pkgconfig'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/ros_ws/install/rtabmap/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/ros_ws/install/synchros2_tutorials_example:/ros_ws/install/synchros2_tutorials_interfaces_example:/ros_ws/install/spot_driver:/ros_ws/install/spot_ros2_control:/ros_ws/install/spot_examples:/ros_ws/install/spot_common:/ros_ws/install/synchros2:/ros_ws/install/spot_rviz_plugins:/ros_ws/install/spot_hardware_interface:/ros_ws/install/spot_controllers:/ros_ws/install/spot_msgs:/ros_ws/install/spot_description:/ros_ws/install/rtabmap_ros:/ros_ws/install/rtabmap_launch:/ros_ws/install/rtabmap_examples:/ros_ws/install/rtabmap_demos:/ros_ws/install/rtabmap_viz:/ros_ws/install/rtabmap_slam:/ros_ws/install/rtabmap_odom:/ros_ws/install/rtabmap_util:/ros_ws/install/rtabmap_sync:/ros_ws/install/rtabmap_rviz_plugins:/ros_ws/install/rtabmap_python:/ros_ws/install/rtabmap_conversions:/ros_ws/install/rtabmap_msgs:/ros_ws/install/rtabmap_lidar_custom:/ros_ws/install/rtabmap_costmap_plugins:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/ros2_ws_dev/build/controller'), ('PYTHONPATH', '/ros_ws/build/synchros2_tutorials_example:/ros_ws/install/synchros2_tutorials_example/lib/python3.10/site-packages:/ros_ws/install/synchros2_tutorials_interfaces_example/local/lib/python3.10/dist-packages:/ros_ws/install/spot_driver/local/lib/python3.10/dist-packages:/ros_ws/build/spot_examples:/ros_ws/install/spot_examples/lib/python3.10/site-packages:/ros_ws/build/spot_common:/ros_ws/install/spot_common/lib/python3.10/site-packages:/ros_ws/build/synchros2:/ros_ws/install/synchros2/lib/python3.10/site-packages:/ros_ws/build/spot_wrapper:/ros_ws/install/spot_wrapper/lib/python3.10/site-packages:/ros_ws/install/spot_msgs/local/lib/python3.10/dist-packages:/ros_ws/build/rtabmap_python:/ros_ws/install/rtabmap_python/lib/python3.10/site-packages:/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:/ros_ws/build/rtabmap_lidar_custom:/ros_ws/install/rtabmap_lidar_custom/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ros_ws/install/synchros2_tutorials_interfaces_example:/ros_ws/install/spot_driver:/ros_ws/install/spot_ros2_control:/ros_ws/install/spot_rviz_plugins:/ros_ws/install/spot_hardware_interface:/ros_ws/install/spot_controllers:/ros_ws/install/spot_msgs:/ros_ws/install/spot_description:/ros_ws/install/rtabmap_ros:/ros_ws/install/rtabmap_launch:/ros_ws/install/rtabmap_examples:/ros_ws/install/rtabmap_demos:/ros_ws/install/rtabmap_viz:/ros_ws/install/rtabmap_slam:/ros_ws/install/rtabmap_odom:/ros_ws/install/rtabmap_util:/ros_ws/install/rtabmap_sync:/ros_ws/install/rtabmap_rviz_plugins:/ros_ws/install/rtabmap_conversions:/ros_ws/install/rtabmap_msgs:/ros_ws/install/rtabmap_costmap_plugins:/ros_ws/install/rtabmap:/ros_ws/install/synchros2_tutorials_example:/ros_ws/install/spot_examples:/ros_ws/install/spot_common:/ros_ws/install/synchros2:/ros_ws/install/rtabmap_python:/ros_ws/install/rtabmap_lidar_custom:/opt/ros/humble')]), 'shell': False}
+[1.596875] (controller) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target pure_controller\x1b[0m\n'}
+[1.604014] (-) TimerEvent: {}
+[1.632887] (controller) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/pure_controller.dir/src/pure_controller.cpp.o\x1b[0m\n'}
+[1.704290] (-) TimerEvent: {}
+[1.804726] (-) TimerEvent: {}
+[1.905125] (-) TimerEvent: {}
+[2.005442] (-) TimerEvent: {}
+[2.105933] (-) TimerEvent: {}
+[2.206345] (-) TimerEvent: {}
+[2.306760] (-) TimerEvent: {}
+[2.407263] (-) TimerEvent: {}
+[2.507791] (-) TimerEvent: {}
+[2.608248] (-) TimerEvent: {}
+[2.708734] (-) TimerEvent: {}
+[2.809163] (-) TimerEvent: {}
+[2.909606] (-) TimerEvent: {}
+[3.010098] (-) TimerEvent: {}
+[3.110628] (-) TimerEvent: {}
+[3.211071] (-) TimerEvent: {}
+[3.311522] (-) TimerEvent: {}
+[3.411961] (-) TimerEvent: {}
+[3.512390] (-) TimerEvent: {}
+[3.612853] (-) TimerEvent: {}
+[3.713426] (-) TimerEvent: {}
+[3.813934] (-) TimerEvent: {}
+[3.914281] (-) TimerEvent: {}
+[4.014797] (-) TimerEvent: {}
+[4.115296] (-) TimerEvent: {}
+[4.215751] (-) TimerEvent: {}
+[4.316194] (-) TimerEvent: {}
+[4.416640] (-) TimerEvent: {}
+[4.517177] (-) TimerEvent: {}
+[4.617685] (-) TimerEvent: {}
+[4.718153] (-) TimerEvent: {}
+[4.818598] (-) TimerEvent: {}
+[4.837202] (controller) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws_dev/src/controller/controller/src/pure_controller.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual geometry_msgs::msg::TwistStamped nav2_pure_controller::PureController::computeVelocityCommands(const PoseStamped&, const Twist&, nav2_core::GoalChecker*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.837373] (controller) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws_dev/src/controller/controller/src/pure_controller.cpp:439:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kbase operand of \xe2\x80\x98\x1b[01m\x1b[K->\x1b[m\x1b[K\xe2\x80\x99 has non-pointer type \xe2\x80\x98\x1b[01m\x1b[Krclcpp_lifecycle::LifecycleNode::WeakPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::weak_ptr<rclcpp_lifecycle::LifecycleNode>\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[4.837424] (controller) StderrLine: {'line': b'  439 |   goal_pub.header.stamp = node_\x1b[01;31m\x1b[K->\x1b[m\x1b[Know();  // oppure rclcpp::Clock().now() se non hai node_->now()\n'}
+[4.837467] (controller) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.918916] (-) TimerEvent: {}
+[5.019454] (-) TimerEvent: {}
+[5.119928] (-) TimerEvent: {}
+[5.220351] (-) TimerEvent: {}
+[5.320772] (-) TimerEvent: {}
+[5.421219] (-) TimerEvent: {}
+[5.521684] (-) TimerEvent: {}
+[5.622175] (-) TimerEvent: {}
+[5.722619] (-) TimerEvent: {}
+[5.823146] (-) TimerEvent: {}
+[5.923636] (-) TimerEvent: {}
+[6.024089] (-) TimerEvent: {}
+[6.124461] (-) TimerEvent: {}
+[6.224920] (-) TimerEvent: {}
+[6.325379] (-) TimerEvent: {}
+[6.425861] (-) TimerEvent: {}
+[6.526295] (-) TimerEvent: {}
+[6.567792] (controller) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/pure_controller.dir/build.make:76: CMakeFiles/pure_controller.dir/src/pure_controller.cpp.o] Error 1\n'}
+[6.568150] (controller) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pure_controller.dir/all] Error 2\n'}
+[6.568234] (controller) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[6.570124] (controller) CommandEnded: {'returncode': 2}
+[6.599638] (controller) JobEnded: {'identifier': 'controller', 'rc': 2}
+[6.610360] (-) EventReactorShutdown: {}
