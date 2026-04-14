@@ -1,5 +1,5 @@
 ros2 launch rtabmap_launch rtabmap.launch.py \
-    use_sim_time:=true \
+    use_sim_time:=false \
     frame_id:=body \
     odom_frame_id:=odom \
     icp_odometry:=false \
@@ -16,14 +16,14 @@ ros2 launch rtabmap_launch rtabmap.launch.py \
     grid_incremental:=true \
     map_frame_id:=map \
     args:="--delete_db_on_start \
-           --Grid/RangeMax 20.0 \
+           --Grid/RangeMax 4.0 \
            --Grid/RangeMin 1.2  \
            --Grid/RayTracing true  \
            --Grid/ColorMapOccupancy true \
            --Grid/NormalsSegmentation true \
-           --Grid/FlatPbstacleDetected false \
-           --Grid/MinGroundHeight -0.5 \
-           --Grid/MaxGroundHeight 0.5 \
+           --Grid/FlatObstacleDetected false \
+           --Grid/MinGroundHeight -5 \
+           --Grid/MaxGroundHeight -0.5 \
            --Grid/MaxGroundAngle 15 \
            --GridGlobal/Eroded false \
            --Optimizer/Strategy 2 \
@@ -41,4 +41,5 @@ ros2 launch rtabmap_launch rtabmap.launch.py \
            --GTSAM/Optimizer 2 \
            --RGBD/NeighborLinkRefining true \
            --Vis/MinInliers 25  \
-           --Grid/UnknownSpaceFilled false"
+           --Grid/UnknownSpaceFilled false \
+           --General/CloudCeilingHeight 1.2"

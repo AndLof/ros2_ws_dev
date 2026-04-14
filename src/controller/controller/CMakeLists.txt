@@ -16,6 +16,8 @@ find_package(std_msgs REQUIRED)
 
 #find_package(custom_msg_srv REQUIRED)
 
+#add_executable(pure_controller src/pure_controller.cpp)
+
 nav2_package()
 set(CMAKE_CXX_STANDARD 17)
 
