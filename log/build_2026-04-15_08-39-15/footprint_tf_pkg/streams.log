@@ -1,0 +1,37 @@
+[1.203s] Invoking command in '/ros2_ws_dev/src/footprint_tf_pkg': PYTHONPATH=/ros2_ws_dev/build/footprint_tf_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_ws_dev/install/footprint_tf_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/footprint_tf_pkg build --build-base /ros2_ws_dev/build/footprint_tf_pkg/build install --record /ros2_ws_dev/build/footprint_tf_pkg/install.log --single-version-externally-managed install_data
+[1.514s] running egg_info
+[1.515s] creating ../../build/footprint_tf_pkg/footprint_tf_pkg.egg-info
+[1.515s] writing ../../build/footprint_tf_pkg/footprint_tf_pkg.egg-info/PKG-INFO
+[1.516s] writing dependency_links to ../../build/footprint_tf_pkg/footprint_tf_pkg.egg-info/dependency_links.txt
+[1.516s] writing entry points to ../../build/footprint_tf_pkg/footprint_tf_pkg.egg-info/entry_points.txt
+[1.516s] writing requirements to ../../build/footprint_tf_pkg/footprint_tf_pkg.egg-info/requires.txt
+[1.516s] writing top-level names to ../../build/footprint_tf_pkg/footprint_tf_pkg.egg-info/top_level.txt
+[1.516s] writing manifest file '../../build/footprint_tf_pkg/footprint_tf_pkg.egg-info/SOURCES.txt'
+[1.518s] reading manifest file '../../build/footprint_tf_pkg/footprint_tf_pkg.egg-info/SOURCES.txt'
+[1.519s] writing manifest file '../../build/footprint_tf_pkg/footprint_tf_pkg.egg-info/SOURCES.txt'
+[1.519s] running build
+[1.520s] running build_py
+[1.520s] creating /ros2_ws_dev/build/footprint_tf_pkg/build
+[1.520s] creating /ros2_ws_dev/build/footprint_tf_pkg/build/lib
+[1.520s] creating /ros2_ws_dev/build/footprint_tf_pkg/build/lib/footprint_tf_pkg
+[1.520s] copying footprint_tf_pkg/footprint_tf_node.py -> /ros2_ws_dev/build/footprint_tf_pkg/build/lib/footprint_tf_pkg
+[1.520s] copying footprint_tf_pkg/__init__.py -> /ros2_ws_dev/build/footprint_tf_pkg/build/lib/footprint_tf_pkg
+[1.520s] running install
+[1.520s] running install_lib
+[1.522s] creating /ros2_ws_dev/install/footprint_tf_pkg/lib/python3.10/site-packages/footprint_tf_pkg
+[1.522s] copying /ros2_ws_dev/build/footprint_tf_pkg/build/lib/footprint_tf_pkg/footprint_tf_node.py -> /ros2_ws_dev/install/footprint_tf_pkg/lib/python3.10/site-packages/footprint_tf_pkg
+[1.522s] copying /ros2_ws_dev/build/footprint_tf_pkg/build/lib/footprint_tf_pkg/__init__.py -> /ros2_ws_dev/install/footprint_tf_pkg/lib/python3.10/site-packages/footprint_tf_pkg
+[1.523s] byte-compiling /ros2_ws_dev/install/footprint_tf_pkg/lib/python3.10/site-packages/footprint_tf_pkg/footprint_tf_node.py to footprint_tf_node.cpython-310.pyc
+[1.523s] byte-compiling /ros2_ws_dev/install/footprint_tf_pkg/lib/python3.10/site-packages/footprint_tf_pkg/__init__.py to __init__.cpython-310.pyc
+[1.523s] running install_data
+[1.524s] creating /ros2_ws_dev/install/footprint_tf_pkg/share/ament_index
+[1.524s] creating /ros2_ws_dev/install/footprint_tf_pkg/share/ament_index/resource_index
+[1.524s] creating /ros2_ws_dev/install/footprint_tf_pkg/share/ament_index/resource_index/packages
+[1.524s] copying resource/footprint_tf_pkg -> /ros2_ws_dev/install/footprint_tf_pkg/share/ament_index/resource_index/packages
+[1.524s] copying package.xml -> /ros2_ws_dev/install/footprint_tf_pkg/share/footprint_tf_pkg
+[1.524s] running install_egg_info
+[1.526s] Copying ../../build/footprint_tf_pkg/footprint_tf_pkg.egg-info to /ros2_ws_dev/install/footprint_tf_pkg/lib/python3.10/site-packages/footprint_tf_pkg-0.0.0-py3.10.egg-info
+[1.527s] running install_scripts
+[1.548s] Installing footprint_tf_node script to /ros2_ws_dev/install/footprint_tf_pkg/lib/footprint_tf_pkg
+[1.549s] writing list of installed files to '/ros2_ws_dev/build/footprint_tf_pkg/install.log'
+[1.582s] Invoked command in '/ros2_ws_dev/src/footprint_tf_pkg' returned '0': PYTHONPATH=/ros2_ws_dev/build/footprint_tf_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_ws_dev/install/footprint_tf_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/footprint_tf_pkg build --build-base /ros2_ws_dev/build/footprint_tf_pkg/build install --record /ros2_ws_dev/build/footprint_tf_pkg/install.log --single-version-externally-managed install_data

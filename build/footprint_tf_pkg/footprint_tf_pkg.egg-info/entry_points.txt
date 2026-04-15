@@ -1,0 +1,3 @@
+[console_scripts]
+footprint_tf_node = footprint_tf_pkg.footprint_tf_node:main
+
