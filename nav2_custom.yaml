@@ -11,7 +11,10 @@ controller_server:
     progress_checker_plugin: "progress_checker"
     goal_checker_plugins: ["goal_checker"]
 
-    controller_plugins: ["PureController"]
+    controller_plugins: ["FollowPath"]
+    
+    FollowPath:
+      plugin: "nav2_pure_controller::PureController"
 
     PureController:
       plugin: "nav2_pure_controller::PureController"
