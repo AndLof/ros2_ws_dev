@@ -1,7 +1,7 @@
 ros2 launch rtabmap_launch rtabmap.launch.py \
     use_sim_time:=false \
-    frame_id:=body \
-    odom_frame_id:=odom \
+    frame_id:=spot_body \
+    odom_frame_id:=spot_odom \
     icp_odometry:=false \
     visual_odometry:=false \
     scan_cloud_topic:=/velodyne/points \

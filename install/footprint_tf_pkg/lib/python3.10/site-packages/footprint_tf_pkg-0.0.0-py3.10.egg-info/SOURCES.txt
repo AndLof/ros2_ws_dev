@@ -9,6 +9,7 @@ setup.py
 ../../build/footprint_tf_pkg/footprint_tf_pkg.egg-info/top_level.txt
 ../../build/footprint_tf_pkg/footprint_tf_pkg.egg-info/zip-safe
 footprint_tf_pkg/__init__.py
+footprint_tf_pkg/arm_base_tf_node.py
 footprint_tf_pkg/footprint_tf_node.py
 resource/footprint_tf_pkg
 test/test_copyright.py

@@ -25,6 +25,7 @@ setup(
     entry_points={
         'console_scripts': [
         'footprint_tf_node = footprint_tf_pkg.footprint_tf_node:main',
+        'arm_base_tf_node = footprint_tf_pkg.arm_base_tf_node:main',
         ],
     },
 )

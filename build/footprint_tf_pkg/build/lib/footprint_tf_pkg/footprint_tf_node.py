@@ -26,7 +26,7 @@ class FootprintTF(Node):
             # Lookup transform da map a body
             tf = self.tf_buffer.lookup_transform(
                 'map',
-                'body',
+                'spot_body',
                 rclpy.time.Time()
             )
 

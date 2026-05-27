@@ -1,0 +1,27 @@
+[100%] Built target pure_controller
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /ros2_ws_dev/install/controller/lib/libpure_controller.so
+-- Up-to-date symlink: /ros2_ws_dev/install/controller/include//nav2_pure_controller/pure_controller.hpp
+-- Up-to-date symlink: /ros2_ws_dev/install/controller/share/controller/environment/library_path.sh
+-- Up-to-date symlink: /ros2_ws_dev/install/controller/share/controller/environment/library_path.dsv
+-- Up-to-date symlink: /ros2_ws_dev/install/controller/share/controller//pure_controller.xml
+-- Up-to-date symlink: /ros2_ws_dev/install/controller/share/ament_index/resource_index/package_run_dependencies/controller
+-- Up-to-date symlink: /ros2_ws_dev/install/controller/share/ament_index/resource_index/parent_prefix_path/controller
+-- Up-to-date symlink: /ros2_ws_dev/install/controller/share/controller/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /ros2_ws_dev/install/controller/share/controller/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /ros2_ws_dev/install/controller/share/controller/environment/path.sh
+-- Up-to-date symlink: /ros2_ws_dev/install/controller/share/controller/environment/path.dsv
+-- Up-to-date symlink: /ros2_ws_dev/install/controller/share/controller/local_setup.bash
+-- Up-to-date symlink: /ros2_ws_dev/install/controller/share/controller/local_setup.sh
+-- Up-to-date symlink: /ros2_ws_dev/install/controller/share/controller/local_setup.zsh
+-- Up-to-date symlink: /ros2_ws_dev/install/controller/share/controller/local_setup.dsv
+-- Symlinking: /ros2_ws_dev/install/controller/share/controller/package.dsv
+-- Up-to-date symlink: /ros2_ws_dev/install/controller/share/ament_index/resource_index/packages/controller
+-- Up-to-date symlink: /ros2_ws_dev/install/controller/share/ament_index/resource_index/nav2_core__pluginlib__plugin/controller
+-- Up-to-date symlink: /ros2_ws_dev/install/controller/share/controller/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /ros2_ws_dev/install/controller/share/controller/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /ros2_ws_dev/install/controller/share/controller/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /ros2_ws_dev/install/controller/share/controller/cmake/controllerConfig.cmake
+-- Up-to-date symlink: /ros2_ws_dev/install/controller/share/controller/cmake/controllerConfig-version.cmake
+-- Up-to-date symlink: /ros2_ws_dev/install/controller/share/controller/package.xml
