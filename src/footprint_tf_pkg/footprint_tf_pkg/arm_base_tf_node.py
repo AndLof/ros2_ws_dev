@@ -19,7 +19,7 @@ class SpotArmMountTF(Node):
 
         # IMPORTANT:
         # use the REAL base frame of your arm
-        self.declare_parameter('child_frame', 'base_link')
+        self.declare_parameter('child_frame', 'world')
 
         # Mount position of the arm on Spot
         self.declare_parameter('x', 0.3)

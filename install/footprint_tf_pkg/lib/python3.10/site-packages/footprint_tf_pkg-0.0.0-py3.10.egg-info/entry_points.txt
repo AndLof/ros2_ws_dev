@@ -1,4 +1,0 @@
-[console_scripts]
-arm_base_tf_node = footprint_tf_pkg.arm_base_tf_node:main
-footprint_tf_node = footprint_tf_pkg.footprint_tf_node:main
-

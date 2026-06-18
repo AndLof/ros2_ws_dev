@@ -1,3 +1,0 @@
-[console_scripts]
-gotopoint = setting_goal.gotopoint:main
-
