@@ -360,7 +360,8 @@ def run(in_png, out_png, out_csv):
             xm = (px-ox)/scale; ym = -(py-oy)/scale
             # Convenzione yaw richiesta: SINISTRA=0, BASSO=90, DESTRA=180, ALTO=270.
             # La geometria interna usa Est=0 (spazio-immagine); qui rimappo: yaw_user = (180 - yaw_geom) mod 360.
-            yaw_deg = (180.0 - math.degrees(chosen["yaw"])) % 360.0
+            #yaw_deg = (180.0 - math.degrees(chosen["yaw"])) % 360.0
+            yaw_deg = (-math.degrees(chosen["yaw"])) % 360.0
             draw_pose(canvas, px, py, chosen["corners"], chosen["yaw"], Lpx)
             cv2.putText(canvas, str(zone_id), (int(px)+8, int(py)-8),
                         cv2.FONT_HERSHEY_SIMPLEX, 0.6, COL_EDGE, 2, cv2.LINE_AA)

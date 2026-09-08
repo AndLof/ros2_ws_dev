@@ -4,7 +4,7 @@ ros2 launch rtabmap_launch rtabmap.launch.py \
     odom_frame_id:=spot_odom \
     icp_odometry:=false \
     visual_odometry:=false \
-    scan_cloud_topic:=/velodyne/points \
+    scan_cloud_topic:=/spot/velodyne/points \
     depth:=false \
     subscribe_scan_cloud:=true \
     subscribe_scan:=false \

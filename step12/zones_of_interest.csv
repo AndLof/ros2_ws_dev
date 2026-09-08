@@ -1,0 +1,7 @@
+id,type,x_m,y_m,area_m2,inscribed_radius_m,n_cells,obstacle_border_frac,unknown_frac
+SPOT,robot_start,-0.1024,0.1091,,,,,
+1,zone_of_interest,2.8476,0.2591,2.658,0.6,1063,0.426,0.0
+2,zone_of_interest,2.8476,-2.0409,1.23,0.522,492,0.321,0.0
+3,zone_of_interest,2.8476,1.7591,0.695,0.453,278,0.181,0.0
+4,zone_of_interest,-1.6024,-3.3909,0.938,0.35,375,0.254,0.0
+5,zone_of_interest,0.4476,-3.7409,0.735,0.35,294,0.377,0.0

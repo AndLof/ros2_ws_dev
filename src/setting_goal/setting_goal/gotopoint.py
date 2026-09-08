@@ -84,7 +84,7 @@ def set_mobility_params():
     traj = trajectory_pb2.SE3Trajectory(points=[point])
     body_control=spot_command_pb2.BodyControlParams(base_offset_rt_footprint=traj)
 
-    speed_limit = SE2VelocityLimit(max_vel=SE2Velocity(linear=Vec2(x=1.0, y=1.0), angular=0.7))        
+    speed_limit = SE2VelocityLimit(max_vel=SE2Velocity(linear=Vec2(x=0.5, y=0.5), angular=1.2))        
     mobility_params = spot_command_pb2.MobilityParams( obstacle_params=obstacles, vel_limit=speed_limit, body_control=body_control, locomotion_hint=spot_command_pb2.HINT_AUTO)
     return mobility_params
 
