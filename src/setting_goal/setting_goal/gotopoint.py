@@ -74,7 +74,7 @@ def set_mobility_params():
                                                 disable_vision_foot_constraint_avoidance=False,
                                                 disable_vision_foot_obstacle_body_assist= False,
                                                 disable_vision_negative_obstacles=False,
-                                                obstacle_avoidance_padding=0.1)
+                                                obstacle_avoidance_padding=0.25)
 
     footprint_R_body = geometry.EulerZXY()
     position = geometry_pb2.Vec3(x=0.0, y=0.0, z=0.0)
